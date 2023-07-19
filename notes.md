@@ -109,3 +109,51 @@ Wi-Fi Analyzer: Detects devices and points of interference in a Wi-Fi signal. Th
 Bandwidth Speed Tester
 Tests the bandwidth and latency of a user’s internet connection. This application is typically accessed through a third-party website and can be used to confirm user reports about slow connections or download speeds.
 
+SYSTEMS SECURITY CONCEPTS
+Principles of network security
+CIA TRIAD
+The fundamentals of security → Confidentiality, Integrity, Availability 
+
+Confidentiality 
+Prevents disclosure of information to unauthorized individuals or systems
+Certain information should only be known to certain people
+Use Encryption
+Encode messages so only certain people can read it
+Implement access controls
+Selectively restrict access to a resource
+Use steganography
+Conceal information within another piece of information
+Commonly associated with hiding information in an image		
+
+Integrity
+Messages can’t be modified without detection  
+Data is stored and transferred as intended
+	Any modification to the data would be identified
+Use Hashing 
+	Map data of an arbitrary length to data of a fixed length
+Use digital signatures
+	Mathematical scheme to verify the integrity of data
+Use certificates
+	Combine with a digital signature to verify an individual
+Non-repudiation
+	Provides proof of integrity, can be asserted to be genuine
+
+Availability 
+Systems and networks must be up and running
+Information is accessible to authorized users
+Always at your fingertips
+Use redundancy
+Build services that will always be available  
+Fault tolerance 
+	The system will continue to run, even when a failure occurs
+Patching
+	Stability, close security holes
+
+
+Common Network Security Vulnerabilities
+Improperly installed hardware or software
+Operating systems or firmware that have not been updated
+Misused hardware or software
+Poor or a complete lack of physical security
+Insecure passwords
+
