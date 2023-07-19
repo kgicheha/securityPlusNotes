@@ -209,4 +209,53 @@ Disadvantages of Layered Structure
 Performance is compromised in layered structures due to layering.
 Construction of the layers requires careful design because upper layers only make use of lower layers' capabilities.
 
+Micro-Kernel Structure
+	Strips the kernel of any unnecessary parts.
+Each Micro-Kernel is created separately and is kept apart from the others. As a result, the system is now more trustworthy and secure. 
+If one Micro-Kernel malfunctions, the remaining operating system is unaffected and continues to function normally.
+
+Advantages of Micro-Kernel Structure
+It enables portability of the operating system across platforms.
+Due to the isolation of each Micro-Kernel, it is reliable and secure.
+The reduced size of Micro-Kernels allows for successful testing.
+The remaining operating system remains unaffected and keeps running properly even if a component or Micro-Kernel fails.
+Disadvantages of Micro-Kernel Structure
+
+The performance of the system is decreased by increased inter-module communication.
+The construction of a system is complicated.
+
+		
+	Exokernel
+Goal is to enable application-specific customization by separating resource management from protection. 
+Exokernel size tends to be minimal due to its limited operability.	
+	Exokernel operating systems have a number of features, including:
+Enhanced application control support.
+Splits management and security apart.
+A secure transfer of abstractions is made to an unreliable library operating system.
+Brings up a low-level interface.
+Operating systems for libraries provide compatibility and portability.
+Advantages of Exokernel Structure
+Application performance is enhanced by it.
+Accurate resource allocation and revocation enable more effective utilisation of hardware resources.
+New operating systems can be tested and developed more easily.
+Every user-space program is permitted to utilise its own customised memory management.
+Disadvantages of Exokernel Structure
+A decline in consistency
+Exokernel interfaces have a complex architecture.
+
+
+	Virtual Machines (VMs)
+The hardware of our personal computer, including the CPU, disc drives, RAM, and NIC (Network Interface Card), is abstracted by a virtual machine into a variety of various execution contexts based on our needs, giving us the impression that each execution environment is a separate computer.
+
+Using CPU scheduling and virtual memory techniques, an operating system allows us to execute multiple processes simultaneously while giving the impression that each one is using a separate processor and virtual memory.
+Advantages of Virtual Machines
+Due to total isolation between each virtual machine and every other virtual machine, there are no issues with security.
+A virtual machine may offer an architecture for the instruction set that is different from that of actual computers.
+Simple availability, accessibility, and recovery convenience.
+Disadvantages of Virtual Machines
+Depending on the workload, operating numerous virtual machines simultaneously on a host computer may have an adverse effect on one of them.
+When it comes to hardware access, virtual computers are less effective than physical ones.
+
+
+
 
