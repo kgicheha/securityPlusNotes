@@ -294,6 +294,31 @@ It incorporates management controls and phishing simulations as an example.
 These human management controls aim to protect that which is most critical to a business in terms of security. 
 This includes the very real threat that humans, cyber attackers, and malicious users pose to a business.
 
+CYBER THREAT INTELLIGENCE
+What is Cyber Threat Intelligence?
+Detailed, actionable threat information for preventing and fighting cyberthreats targeting an organization
+Threat intelligence helps security teams be more proactive, enabling them to take effective, data-driven actions to prevent cyber attacks before they occur. It can also help an organization better detect and respond to attacks in progress.
+Security analysts create threat intelligence by gathering raw threat information and security-related from multiple sources, then correlating and analyzing the data to uncover trends, patterns and relationships that provide in-depth understand of the actual or potential threats.
+
+The Threat Intelligence Lifecycle
+Planning
+Threat Data Collection
+Processing
+Analysis
+Dissemination/ Distribution of insights and recommendation
+Feedback
+
+Types Of Threat Intelligence
+Tactical threat intelligence 
+Used by the security operations center (SOC) to detect and respond to cyberattacks in progress.
+It focuses typically on common IoCs—e.g., IP addresses associated with command and control servers, file hashes related to known malware and ransomware attacks, or email subject lines associated with phishing attacks.
+In addition to helping incident response teams filter out false positives and intercept genuine attacks, tactical threat intelligence is also used by threat-hunting teams to track down advanced persistent threats (APTs) and other active but hidden attackers.
+
+Operational threat intelligence 
+Helps organizations anticipate and prevent future attacks. It is sometimes called ‘technical threat intelligence’ because it details the TTPs and behaviors of known threat actors—e.g., the attack vectors they use, the vulnerabilities they exploit, and the assets they target. CISOs, CIOs, and other information security decision-makers use operational threat intelligence to identify threat actors who are likely to attack their organizations, and respond with security controls and other actions aimed specifically at thwart their attacks.
+
+Strategic threat intelligence 
+High-level intelligence about the global threat landscape and an organization’s place within it. Strategic threat intelligence gives decision-makers outside of IT, such as CEOs and other executives, an understanding of the cyber threats their organizations face. Strategic threat intelligence usually focuses on issues such as geopolitical situations, cyber threat trends in a particular industry, or how or why certain of the organization’s strategic assets may be targeted. Stakeholders use strategic threat intelligence to align broader organizational risk management strategies and investments with the cyber threat landscape.
 
 
 
