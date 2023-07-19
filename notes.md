@@ -257,5 +257,43 @@ Depending on the workload, operating numerous virtual machines simultaneously on
 When it comes to hardware access, virtual computers are less effective than physical ones.
 
 
+System Exploits (hardware, operating system, and memory)
+A computer exploit is a type of malware that takes advantage of bugs or vulnerabilities, which cybercriminals use to gain illicit access to a system.	
+These vulnerabilities are hidden in the code of the operating system and its applications just waiting to be discovered and put to use by cybercriminals. Commonly exploited software includes the operating system itself, browsers, Microsoft Office, and third-party applications
+	
+The Seven Layers Of Cybersecurity 
+Mission-Critical Assets
+This is data that is absolutely critical to protect.
+An example of mission-critical assets in the Healthcare industry is Electronic Medical Record (EMR) software. In the financial sector, its customer’s financial records.
+
+Data Security
+ 	When there are security controls put in place to protect both the transfer and the storage of data
+There has to be a backup security measure in place to prevent the loss of data, This will also require the use of encryption and archiving.  
+Data security is an important focus for all businesses as a breach of data can have dire consequences. 
+
+Endpoint Security
+Makes sure that the endpoints of user devices are not exploited by breaches. This includes the protection of mobile devices, desktops, and laptops. 
+Endpoint security systems enable protection either on a network or in the cloud depending on the needs of a business.
+
+Application Security
+This involves the security features that control access to an application and that application’s access to your assets. It also includes the internal security of the app itself.  
+Most of the time, applications are designed with security measures that continue to provide protection when the app is in use.
+
+Network Security
+This is where security controls are put in place to protect the business’s network. The goal is to prevent unauthorized access to the network.  
+It is crucial to regularly update all systems on the business network with the necessary security patches, including encryption. It’s always best to disable unused interfaces to further guard against any threats.
+
+
+Perimeter Security
+This security layer ensures that both the physical and digital security methods protect a business as a whole. 
+It includes things like firewalls that protect the business network against external forces.  
+
+The Human Layer
+Despite being known as the weakest link in the security chain, the human layer is a very necessary layer. 
+It incorporates management controls and phishing simulations as an example.  
+These human management controls aim to protect that which is most critical to a business in terms of security. 
+This includes the very real threat that humans, cyber attackers, and malicious users pose to a business.
+
+
 
 
