@@ -183,5 +183,30 @@ Simple Structure
 The most straightforward operating system structure, but it lacks definition and is only appropriate for usage with tiny and restricted systems.
 	Advantages of Simple Structure
 		Because there are only a few interfaces and levels, it is simple to develop.	
+Because there are fewer layers between the hardware and the applications, it offers superior performance.
+Disadvantages of Simple Structure:
+The entire operating system breaks if just one user program malfunctions.
+Since the layers are interconnected, and in communication with one another, there is no abstraction or data hiding.
+The operating system's operations are accessible to layers, which can result in data tampering and system failure.
+
+	Monolithic Structure
+Controls all aspects of the operating system's operation, including file management, memory management, device management, and operational operations.
+		Advantages of Monolithic Structure
+Because layering is unnecessary and the kernel alone is responsible for managing all operations, it is easy to design and execute.
+Due to the fact that functions like memory management, file management, process scheduling, etc., are implemented in the same address area, the monolithic kernel runs rather quickly when compared to other systems. Utilizing the same address speeds up and reduces the time required for address allocation for new processes.
+Disadvantages of Monolithic Structure
+The monolithic kernel's services are interconnected in address space and have an impact on one another, so if any of them malfunctions, the entire system does as well.
+It is not adaptable. Therefore, launching a new service is difficult.
+
+	Layered Structure
+	The OS is separated into layers or levels in this kind of arrangement. 
+Layer 0 (the lowest layer) contains the hardware, and layer 1 (the highest layer) contains the user interface (layer N). 
+These layers are organized hierarchically, with the top-level layers making use of the capabilities of the lower-level ones.
+Advantages of Layered Structure
+Work duties are separated since each layer has its own functionality, and there is some amount of abstraction.
+Debugging is simpler because the lower layers are examined first, followed by the top layers.
+Disadvantages of Layered Structure
+Performance is compromised in layered structures due to layering.
+Construction of the layers requires careful design because upper layers only make use of lower layers' capabilities.
 
 
