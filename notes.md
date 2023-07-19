@@ -157,3 +157,31 @@ Misused hardware or software
 Poor or a complete lack of physical security
 Insecure passwords
 
+Design flaws in a device’s operating system or in the network
+
+System Architecture
+Reflects how the system is used and how it interacts with other systems and the outside world. 
+It describes the interconnection of all the system’s components and the data link between them. 
+	Kernel
+The kernel in the operating system is responsible for managing the resources of the system such as memory, CPU, and input-output devices. The kernel is responsible for the implementation of the essential functions.
+Shell
+The shell in an Operating System acts as an interface for the user to interact with the computer system. The shell can be a command line interface or a graphical interface.
+
+System Architecture Diagram
+A visual representation of the system architecture. 
+It shows the connections between the various components of the system and indicates what functions each component performs.
+
+Operating System Architecture
+A design that enables user application programs to communicate with the hardware of the machine. 
+The operating system should be built with the utmost care because it is such a complicated structure and should be simple to use and modify. 
+
+Operating System Diagram
+
+
+Operating System Structure
+Simple Structure
+The most straightforward operating system structure, but it lacks definition and is only appropriate for usage with tiny and restricted systems.
+	Advantages of Simple Structure
+		Because there are only a few interfaces and levels, it is simple to develop.	
+
+
