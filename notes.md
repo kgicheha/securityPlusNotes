@@ -150,6 +150,17 @@ Network Troubleshooting Applications
 Packet Sniffer
 Provides a comprehensive view of a given network. You can use this application to analyze traffic on the network, figure out which ports are open and identify network vulnerabilities.
 
+Port Scanner
+Looks for open ports on the target device and gathers information, including whether the port is open or closed, what services are running on a given port and information about the operating system on that machine. This application can be used to figure out which ports are in use and identify points in a network that could be vulnerable to outside attacks.
+
+Protocol Analyzer
+Integrates diagnostic and reporting capabilities to provide a comprehensive view of an organization's network. You can use analyzers to troubleshoot network problems and detect intrusions into your network.
+Wi-Fi Analyzer: Detects devices and points of interference in a Wi-Fi signal. This tool can help you to troubleshoot issues in network connectivity over a wireless network.
+
+Bandwidth Speed Tester
+Tests the bandwidth and latency of a user’s internet connection. This application is typically accessed through a third-party website and can be used to confirm user reports about slow connections or download speeds.
+
+
 
 
 SYSTEMS SECURITY CONCEPTS
