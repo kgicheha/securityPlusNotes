@@ -1,3 +1,31 @@
+NETWORK SECURITY CONCEPTS
+Firewall
+A network device that controls network traffic based on predetermined rules. Firewalls can also be software-based or hardware-based, depending on your network requirements.
+ 
+Intrusion Detection System (IDS)
+A network security system designed to detect malicious activity within a network. IDS systems can be either network-based or host-based and are often used in conjunction with other network security mechanisms such as firewalls.
+
+Intrusion Prevention System (IPS) 
+A network security system designed to prevent malicious activity within a network by monitoring network traffic for suspicious patterns and blocking any activities that appear dangerous or potentially malicious. 
+
+User Datagram Protocol (UDP) 
+A protocol used for communication throughout the internet. It is specifically chosen for time-sensitive applications like gaming, playing videos, or Domain Name System (DNS) lookups.
+
+Transmission Control Protocol (TCP) 
+A communications standard that enables application programs and computing devices to exchange messages over a network. It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.
+TCP is one of the basic standards that define the rules of the internet and is included within the standards defined by the Internet Engineering Task Force (IETF).
+TCP organizes data so that it can be transmitted between a server and a client
+
+Address Resolution Protocol (ARP) 
+A protocol or procedure that connects an ever-changing Internet Protocol (IP) address to a fixed physical machine address, also known as a media access control (MAC) address, in a local-area network (LAN). 
+
+Dynamic Host Configuration Protocol (DHCP) 
+A client/server protocol that automatically provides an Internet Protocol (IP) host with its IP address and other related configuration information such as the subnet mask and default gateway. 
+Without DHCP, IP addresses for new computers or computers that are moved from one subnet to another must be configured manually; IP addresses for computers that are removed from the network must be manually reclaimed.
+
+Domain Name System (DNS) 
+The phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.
+The process of DNS resolution involves converting a hostname (such as www.example.com) into a computer-friendly IP address (such as 192.168.1.1).
 
 
 SYSTEMS SECURITY CONCEPTS
