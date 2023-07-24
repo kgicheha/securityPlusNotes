@@ -1,45 +1,5 @@
 
-Security Information and Event Management (SIEM) 
-A network security solution that consolidates log data from multiple sources into one centralized repository for monitoring, analysis, and reporting. 
-These security systems (called SIEMs) combine host-based and network-based intrusion detection systems that combine real-time network traffic monitoring with historical data log file scanning to provide administrators with a comprehensive picture of all activity across the network. SIEMs are similar to intrusion prevention systems (IPS), which scan network traffic for suspicious activity, policy violations, unauthorized access, and other signs of potentially malicious behavior in order to actively block the attempted intrusions. An IPS can also log security events and send notifications to the necessary players in the interest of keeping network administrators informed.
 
-Endpoint Security 
-A network security solution designed to protect network devices from malicious activity and threats, including malware and unsecured network connections. 
-
-Unified Threat Management (UTM) 
-A network security solution that combines multiple network security solutions, such as firewalls, intrusion detection/prevention systems, antivirus software, and more into one unified platform. 
-
-Access control
-This refers to controlling which users have access to the network or especially sensitive sections of the network. Using security policies, you can restrict network access to only recognized users and devices or grant limited access to noncompliant devices or guest users.
-
-Antivirus and anti-malware software
-Malware, or “malicious software,” is a common form of cyberattack that comes in many different shapes and sizes. Some variations work quickly to delete files or corrupt data, while others can lie dormant for long periodsof time and quietly allow hackers a back door into your systems. The best antivirus software will monitor network traffic in real time for malware, scan activity log files for signs of suspicious behavior or long-term patterns, and offer threat remediation capabilities.
-
-Application security
-Each device and software product used within your networking environment offers a potential way in for hackers. For this reason, it is important that all programs be kept up-to-date and patched to prevent cyberattackers from exploiting vulnerabilities to access sensitive data. Application security refers to the combination of hardware, software, and best practices you use to monitor issues and close gaps in your security coverage.
-
-Behavioral analytics 
-In order to identify abnormal behavior, security support personnel need to establish a baseline of what constitutes normal behavior for a given customer’s users, applications, and network. Behavioral analytics software is designed to help identify common indicators of abnormal behavior, which can often be a sign that a security breach has occurred. By having a better sense of each customer’s baselines, MSPs can more quickly spot problems and isolate threats.
-
-Data loss prevention
-Data loss prevention (DLP) technologies are those that prevent an organization’s employees from sharing valuable company information or sensitive data—whether unwittingly or with ill intent—outside the network. DLP technologies can prevent actions that could potentially expose data to bad actors outside the networking environment, such as uploading and downloading files, forwarding messages, or printing.
-
-Email security
-Email is an especially important factor to consider when implementing networking security tools. Numerous threat vectors, like scams, phishing, malware, and suspicious links, can be attached to or incorporated into emails. Because so many of these threats will often use elements of personal information in order to appear more convincing, it is important to ensure an organization’s employees undergo sufficient security awareness training to detect when an email is suspicious. Email security software works to filter out incoming threats and can also be configured to prevent outgoing messages from sharing certain forms of data.
-
-Mobile device security
-The vast majority of us have mobile devices that carry some form of personal or sensitive data we would like to keep protected. This is a fact that hackers are aware of and can easily take advantage of. Implementing mobile device security measures can limit device access to a network, which is a necessary step to ensuring network traffic stays private and doesn’t leak out through vulnerable mobile connections.
-
-Network segmentation
-Dividing and sorting network traffic based on certain classifications streamlines the job for security support personnel when it comes to applying policies. Segmented networks also make it easier to assign or deny authorization credentials for employees, ensuring no one is accessing information they should not be. Segmentation also helps to sequester potentially compromised devices or intrusions.
-
-Web security 
-Web security software serves a few purposes. First, it limits internet access for employees, with the intention of preventing them from accessing sites that could contain malware. It also blocks other web-based threats and works to protect a customer’s web gateway.
-
-Encryption
-The process of scrambling data to the point of unintelligibility and providing only authorized parties the key (usually a decryption key or password) to decode it. This way, even if data is intercepted or seen by an unauthorized user, they are unable to read it.
-
-Multi-Factor Authentication
 Simple: users must provide two separate methods of identification to log into an account (for instance, typing in a password and then typing in a numeric code that was sent to another device). Users should present unique credentials from two out of three categories — something you know, something you have and something you are — for multi-factor authentication to be fully effective.
 
 
