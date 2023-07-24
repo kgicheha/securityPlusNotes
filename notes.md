@@ -1,4 +1,5 @@
 NETWORK SECURITY CONCEPTS
+
 Firewall
 A network device that controls network traffic based on predetermined rules. Firewalls can also be software-based or hardware-based, depending on your network requirements.
  
@@ -26,6 +27,38 @@ Without DHCP, IP addresses for new computers or computers that are moved from on
 Domain Name System (DNS) 
 The phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.
 The process of DNS resolution involves converting a hostname (such as www.example.com) into a computer-friendly IP address (such as 192.168.1.1).
+
+Internet Control Message Protocol (ICMP) 
+A protocol that devices within a network use to communicate problems with data transmission.
+ICMP is used is to determine if data is getting to its destination and at the right time
+
+Border Gateway Protocol (BGP) 
+A gateway protocol that enables the internet to exchange routing information between autonomous systems (AS). As networks interact with each other, they need a way to communicate. This is accomplished through peering. 
+
+Simple Mail Transfer Protocol (SMTP)
+A method to transfer mail from one user to another
+
+IMAP 
+Allows you to access your email wherever you are, from any device. When you read an email message using IMAP, you aren't actually downloading or storing it on your computer; instead, you're reading it from the email service. As a result, you can check your email from different devices, anywhere in the world: your phone, a computer, a friend's computer.
+IMAP only downloads a message when you click on it, and attachments aren't automatically downloaded. This way you're able to check your messages a lot more quickly than POP.
+
+POP 
+Works by contacting your email service and downloading all of your new messages from it. Once they are downloaded onto your PC or Mac, they are deleted from the email service. This means that after the email is downloaded, it can only be accessed using the same computer. If you try to access your email from a different device, the messages that have been previously downloaded won't be available to you.
+
+File Transfer Protocol (FTP) 
+A standard network protocol used for the transfer of files from one host to another over a TCP-based network, such as the Internet.
+
+Hypertext Transfer Protocol (HTTP) 
+The foundation of the World Wide Web, and is used to load webpages using hypertext links. HTTP is an application layer protocol designed to transfer information between networked devices and runs on top of other layers of the network protocol stack.
+A typical HTTP request contains:
+HTTP version type
+a URL
+an HTTP method
+HTTP request headers
+Optional HTTP body.
+
+Internet Group Management Protocol (IGMP) 
+A protocol that allows several devices to share one IP address so they can all receive the same data. IGMP is a network layer protocol used to set up multicasting on networks that use the Internet Protocol version 4 (IPv4).
 
 
 SYSTEMS SECURITY CONCEPTS
