@@ -124,6 +124,31 @@ Each device and software product used within your networking environment offers 
 Behavioral analytics 
 In order to identify abnormal behavior, security support personnel need to establish a baseline of what constitutes normal behavior for a given customer’s users, applications, and network. Behavioral analytics software is designed to help identify common indicators of abnormal behavior, which can often be a sign that a security breach has occurred. By having a better sense of each customer’s baselines, MSPs can more quickly spot problems and isolate threats.
 
+Data loss prevention
+Data loss prevention (DLP) technologies are those that prevent an organization’s employees from sharing valuable company information or sensitive data—whether unwittingly or with ill intent—outside the network. DLP technologies can prevent actions that could potentially expose data to bad actors outside the networking environment, such as uploading and downloading files, forwarding messages, or printing.
+
+Email security
+Email is an especially important factor to consider when implementing networking security tools. Numerous threat vectors, like scams, phishing, malware, and suspicious links, can be attached to or incorporated into emails. Because so many of these threats will often use elements of personal information in order to appear more convincing, it is important to ensure an organization’s employees undergo sufficient security awareness training to detect when an email is suspicious. Email security software works to filter out incoming threats and can also be configured to prevent outgoing messages from sharing certain forms of data.
+
+Mobile device security
+The vast majority of us have mobile devices that carry some form of personal or sensitive data we would like to keep protected. This is a fact that hackers are aware of and can easily take advantage of. Implementing mobile device security measures can limit device access to a network, which is a necessary step to ensuring network traffic stays private and doesn’t leak out through vulnerable mobile connections.
+
+Network segmentation
+Dividing and sorting network traffic based on certain classifications streamlines the job for security support personnel when it comes to applying policies. Segmented networks also make it easier to assign or deny authorization credentials for employees, ensuring no one is accessing information they should not be. Segmentation also helps to sequester potentially compromised devices or intrusions.
+
+Web security 
+Web security software serves a few purposes. First, it limits internet access for employees, with the intention of preventing them from accessing sites that could contain malware. It also blocks other web-based threats and works to protect a customer’s web gateway.
+Encryption
+The process of scrambling data to the point of unintelligibility and providing only authorized parties the key (usually a decryption key or password) to decode it. This way, even if data is intercepted or seen by an unauthorized user, they are unable to read it.
+
+Multi-Factor Authentication
+Simple: users must provide two separate methods of identification to log into an account (for instance, typing in a password and then typing in a numeric code that was sent to another device). Users should present unique credentials from two out of three categories — something you know, something you have and something you are — for multi-factor authentication to be fully effective.
+
+
+Network Troubleshooting Applications
+
+Packet Sniffer
+Provides a comprehensive view of a given network. You can use this application to analyze traffic on the network, figure out which ports are open and identify network vulnerabilities.
 
 
 
