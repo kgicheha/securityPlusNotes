@@ -60,6 +60,46 @@ Optional HTTP body.
 Internet Group Management Protocol (IGMP) 
 A protocol that allows several devices to share one IP address so they can all receive the same data. IGMP is a network layer protocol used to set up multicasting on networks that use the Internet Protocol version 4 (IPv4).
 
+Access Control List (ACL) 
+A list of rules used to control access to resources on a network, including specific IP addresses, users, and ports. ACLs can be configured for either read or write operations on specific network.
+
+Network Access Control (NAC)
+A network security solution that allows administrators to restrict access to a network based on the user’s identity, device type, and other criteria. 
+
+Virtual Private Networks (VPN) 
+An encrypted network connection used to securely connect two or more private networks over a public network such as the Internet. 
+
+Cryptography 
+The study of how data is protected through encryption algorithms and cryptographic protocols. 
+
+SSL/TLS
+Secure Sockets Layer (SSL) and Transport Layer Security (TLS) are network protocols used to secure network traffic. 
+
+Public Key Infrastructure (PKI) 
+A network security solution that uses public-key cryptography to authenticate network users and their devices. 
+
+Network Address Translation (NAT) 
+A network security technique that allows private networks to use one or more public IP addresses for outgoing traffic. 
+
+Distributed Denial of Service (DDoS) 
+attacks are malicious attempts to overwhelm network resources with large amounts of network traffic from multiple sources or locations. 
+
+Internet Protocol Security (IPSec) 
+An internet standard protocol suite for establishing secure, encrypted connections between network devices. 
+
+Terminal Access Controller Access Control System (TACACS)
+A network security protocol used to authenticate network users and their devices. 
+
+Remote Authentication Dial-In User Service (RADIUS) 
+A network authentication protocol used to securely connect network users with network services such as VPNs, network access control (NAC), and wireless networks. 
+
+Wi-Fi Protected Access (WPA/WPA2) 
+Most commonly used wireless network security protocol for encrypting traffic between Wi-Fi access points and clients. 
+
+Simple Authentication and Security Layer (SASL) 
+A network authentication protocol used to securely authenticate network users. 
+
+Intrusion Prevention System/Intrusion Detection System (IPSO) 
 
 SYSTEMS SECURITY CONCEPTS
 Principles of network security
