@@ -100,6 +100,32 @@ Simple Authentication and Security Layer (SASL)
 A network authentication protocol used to securely authenticate network users. 
 
 Intrusion Prevention System/Intrusion Detection System (IPSO) 
+A network security solution that combines network intrusion detection with network intrusion prevention capabilities. 
+
+Security Information and Event Management (SIEM) 
+A network security solution that consolidates log data from multiple sources into one centralized repository for monitoring, analysis, and reporting. 
+These security systems (called SIEMs) combine host-based and network-based intrusion detection systems that combine real-time network traffic monitoring with historical data log file scanning to provide administrators with a comprehensive picture of all activity across the network. SIEMs are similar to intrusion prevention systems (IPS), which scan network traffic for suspicious activity, policy violations, unauthorized access, and other signs of potentially malicious behavior in order to actively block the attempted intrusions. An IPS can also log security events and send notifications to the necessary players in the interest of keeping network administrators informed.
+
+Endpoint Security 
+A network security solution designed to protect network devices from malicious activity and threats, including malware and unsecured network connections. 
+
+Unified Threat Management (UTM) 
+A network security solution that combines multiple network security solutions, such as firewalls, intrusion detection/prevention systems, antivirus software, and more into one unified platform. 
+
+Access control
+This refers to controlling which users have access to the network or especially sensitive sections of the network. Using security policies, you can restrict network access to only recognized users and devices or grant limited access to noncompliant devices or guest users.
+
+Antivirus and anti-malware software
+Malware, or “malicious software,” is a common form of cyberattack that comes in many different shapes and sizes. Some variations work quickly to delete files or corrupt data, while others can lie dormant for long periods of time and quietly allow hackers a back door into your systems. The best antivirus software will monitor network traffic in real time for malware, scan activity log files for signs of suspicious behavior or long-term patterns, and offer threat remediation capabilities.
+
+Application security
+Each device and software product used within your networking environment offers a potential way in for hackers. For this reason, it is important that all programs be kept up-to-date and patched to prevent cyberattackers from exploiting vulnerabilities to access sensitive data. Application security refers to the combination of hardware, software, and best practices you use to monitor issues and close gaps in your security coverage.
+
+Behavioral analytics 
+In order to identify abnormal behavior, security support personnel need to establish a baseline of what constitutes normal behavior for a given customer’s users, applications, and network. Behavioral analytics software is designed to help identify common indicators of abnormal behavior, which can often be a sign that a security breach has occurred. By having a better sense of each customer’s baselines, MSPs can more quickly spot problems and isolate threats.
+
+
+
 
 SYSTEMS SECURITY CONCEPTS
 Principles of network security
