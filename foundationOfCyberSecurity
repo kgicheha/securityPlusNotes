@@ -291,3 +291,103 @@ To learn and enhance their skills
 To seek revenge
 To exploit security weaknesses by using existing malware, programming scripts, and other tactics. 
 
+Compliance 
+Process of adhering to internal standards and external regulations.
+
+Security Frameworks
+Guidelines are used for building plans to help mitigate risks and threats to data and privacy. 
+Frameworks allow analysts to work alongside other members of the security team to document, implement, and use implement, and use the policies and procedures that have been created.
+It's essential for an entry-level analyst to understand this process because it directly affects the work they do and how they collaborate with others
+
+Purpose of Security Frameworks
+Protecting Personal Identifiable Information (PII)
+Securing financial information
+Identifying security weaknesses
+Managing organizational risks
+Aligning security with business goals
+
+Components of Frameworks
+Identifying and documenting security goals. E.g. a company aligning its security goal with the HIPPA. May be asked to document areas that are not compliant with HIPAA regulations
+Setting guidelines to achieve security goals. E.g. developing new policies for individual users. 
+Implementing strong security processes. E.g. verifying user requests for data
+Monitoring and communicating results. E.g. monitoring the company network and reporting suspicious actions  
+
+Security Controls
+Safeguards are designed to reduce specific security risks. 
+For example, your company may have a guideline that requires all employees to complete privacy training to reduce the risk of data breaches. 
+As a security analyst, you may use a software tool to automatically assign and track which employees have completed this training.
+
+Security frameworks and controls are vital to managing security for all types of organizations and ensuring that everyone is doing their part to maintain a low level of risk.
+
+
+
+
+
+
+
+CIA TRIAD
+A foundational model that helps inform how organizations consider risk when setting up systems and security policies. 
+Confidentiality
+Only authorized users can access specific assets or data. 
+For example, strict access controls that define who should and should not have access to data, must be put in place to ensure confidential data remains safe.
+Integrity
+Data is correct, authentic, and reliable. 
+To maintain integrity, security professionals can use a form of data protection like encryption to safeguard data from being tampered with.
+Availability
+Data is accessible to those who are authorized to access it
+
+Asset
+An item perceived as having value to an organization
+
+Value
+Determined by the cost associated with the asset in question.
+
+National Institute of Standards and Technology (NIST) 
+U.S.-based agency that develops multiple voluntary compliance frameworks that organizations worldwide can use to help manage risk. 
+The more aligned an organization is with compliance, the lower the risk.
+Specifications and guidelines can change depending on the type of organization you work for.
+
+NIST Cybersecurity Framework (CSF)
+A voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk
+
+Key goals for security professionals 
+Managing and mitigating risks
+Protecting an organization's assets from threat actors 
+Understanding the different motives a threat actor may have
+Identifying your organization's most valuable assets is
+
+The Federal Risk and Authorization Management Program (FedRAMP®)
+U.S. federal government program that standardizes security assessment, authorization, monitoring, and handling of cloud services and product offerings. 
+Its purpose is to provide consistency across the government sector and third-party cloud providers. 
+
+Center for Internet Security (CIS®)
+CIS is a nonprofit with multiple areas of emphasis. 
+It provides a set of controls that can be used to safeguard systems and networks against attacks. Its purpose is to help organizations establish a better plan of defense.
+CIS also provides actionable controls that security professionals may follow if a security incident occurs. 
+General Data Protection Regulation (GDPR)
+GDPR is a European Union (E.U.) general data regulation that protects the processing of E.U. residents’ data and their right to privacy in and out of E.U. territory.
+
+Payment Card Industry Data Security Standard (PCI DSS)
+PCI DSS is an international security standard meant to ensure that organizations storing, accepting, processing, and transmitting credit card information do so in a secure environment. 
+The objective of this compliance standard is to reduce credit card fraud. 
+
+The Health Insurance Portability and Accountability Act (HIPAA)
+HIPAA is a U.S. federal law established in 1996 to protect patient's health information. 
+
+System and Organizations Controls (SOC type 1, SOC type 2)
+They are used to assess an organization’s financial compliance and levels of risk. They also cover confidentiality, privacy, integrity, availability, security, and overall data safety. Control failures in these areas can lead to fraud.
+The SOC1 and SOC2 are a series of reports that focus on an organization's user access policies at different organizational levels such as: 
+Associate
+Supervisor
+Manager
+Executive
+Vendor 
+Others 
+
+
+Ethics in Cybersecurity
+
+Security Ethics
+Guidelines for making appropriate decisions as a security professional
+
+
