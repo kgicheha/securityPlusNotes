@@ -122,6 +122,13 @@ Malware that is used to gather and sell information without consent.
 Spyware can be used to access devices
 This allows threat actors to collect personal data, such as private emails, texts, voice and image recordings, and locations 
 
+Password Attack
+An attempt to access password-secured devices, systems, networks, or data. 
+Types password attacks:
+Brute force
+Uses trial and error to crack passwords
+Rainbow table
+Uses a special table to crack the password hashes in a database
 
 Phishing
 The use of digital communications to trick people into revealing sensitive data or deploying malicious software
@@ -179,4 +186,87 @@ Threat actors establish an emotional relationship with users that can be exploit
 Urgency
 A threat actor persuades others to respond quickly and without questioning.
 
+Physical Attack
+Security incident that affects not only digital by also physical environments where the incident is deployed
+ 
+Some forsm of physical attacks:
+Malicious USB cable
+Malicious flash drive
+Card cloning and skimming
+
+Adverserial Artificial Intelligence
+A technique that manipulates AI and machine learning technology to conduct attacks more efficiently. 
+Falls under both the communication and network security and the identity and access management domains. 
+
+Supply-chain Attack
+Targets systems, applications, hardware, and/or software to locate a vulnerability where malware can be deployed. 
+Because every items sold undergoes a process that involves third parities, this means that the security breach can occur at any point in the supply chain. 
+These attacks are costly because they can affect multiple organization and the individuals who work for them. 
+Supply-chain attacks can fall under several domains, including but not limited to the security and risk management, security architecture and engineering, and security operations domains. 
+
+Cryptographic Attack
+Affects secure forms of communication between a sender and intended recipient. 
+Fall under the communication and network security domain 
+
+Some forms of cryptographic attacks:
+Birthday
+Collision
+Downgrade
+
 The Morris worm helped shape the security industry because it led to the development of computer emergency response teams, now commonly referred to as computer security incident response teams (CSIRTs). 
+
+CISSP SECURITY DOMAINS
+Helps an organization and its security team fortify against and prepare for a data breach. 
+Data breaches range from simple to complex and fall under one or more domains. 
+
+8 CISSP Security Domains
+Security & Risk Management
+Defines security goals and objectives, risk mitigation, compliance, business continuity, and law
+E.g making sure the company has policies in place that follow government rules
+Asset Security
+Secures digital and physical assets. It’s also related to the storage, maintenance, retention, and destruction of data. 
+Security Architecture & Engineering
+Optimizes data security by ensuring effective tools, systems, and processes are in place. 
+E.g. incomining and outgoing network traffic. 
+Communications & Network Security
+Manages and secure physical networks and wireless communications. 
+E.g. creating network policies
+Identity & Access Management
+Keeps data source, by ensuring users follow established policies to control and manage physical assets, like office spaces, and logical assets, such as networks and applications. 
+E.g. setting up employee keycards
+Security Assessment & Testing
+Conducting security control testing, collecting and analyzing data, and conducting security audits to monitor for risks, threats, and vulnerabilities. 
+E.g. Conducting audits of user permissions to make sure that users have the correct user access and no unauthorized users have access to the certain data
+Security Operations
+Conducting investigations and implementing preventative measures. 
+E.g. if a unathorized device gains access to the companies networks, an analyst will need to follow the polices and procedures to stop the device. 
+Software Development Security
+Uses secure coding practices, which are a set of recommended guidelines that are used to create secure applications and services. 
+Work with software development teams to ensure that security practices are incorporated into the software development lift cycle
+E.g. advices on the password policies or ensure that the user data is properly secured and managed.
+
+
+Threat Actor Types
+
+Advanced persistent threats (APTs)
+Have significant expertise accessing an organization’s network without authorization. 
+Tens to research their targets (e.g. large corporation or government entities) in advance and can remain undetected for an extended period of time. 
+Their intentions and motivations can include:
+Damaging critical infrastructure, such as a power grid and nature resources
+Gaining access to intellectual property, such as trade secrets and patents
+
+Insider Threats
+Abuse their authorized access to obtain data that may harm an organization. 
+Their intentions and motivations can include:
+Sabotage
+Corruption
+Espionage
+Unauthorized data access or leaks
+
+Hacktivisits
+Driven by a political agenda. 
+They abuse digital technology to accomplish their goals, which may include:
+Demonstrations
+Propaganda
+Social charge campaigns
+Fame
