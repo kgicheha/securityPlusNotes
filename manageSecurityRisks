@@ -1,1 +1,98 @@
+Play It Safe: Manage Security Risks
+
+Security Posture
+An Organization’s ability to manage its defense of critical assets and data, and react to change
+
+CISSP SECURITY DOMAINS
+
+Security and Risk Management
+Focused on:
+Defining security goals and objectives → Organizations can reduce risks to critical assets and data like PII
+Risk mitigation: having the right procedures and rules in place to quickly reduce the impact of a risk like a breach
+Compliance → the primary method used to develop an organization's internal security policies, regulatory requirements, and independent standards
+Business Continuity Plans → an organization's ability to maintain their everyday productivity by establishing risk disaster recovery plans.
+Legal Regulations → following rules and expectations for ethical behavior to minimize negligence, abuse, or fraud.
+Professional and organizational ethics
+
+Asset Security 
+Focused on securing digital and physical assets. 
+It’s also related to the storage, maintenance, retention, and destruction of data.
+ 
+Security Architecture and Engineering
+Focused on optimizing data security by ensuring effective tools, systems, and processes are in place to protect an organization’s assets and data
+Shared responsibility → all individuals within an organization take an active role in lowering risk and maintaining both physical and virtual security. 
+Other design principles include: threat modeling, least privilege, defense in depth, fail securely,  separation of duties, keep it simple, zero trust, and trust but verify
+
+Communication and Network Security
+Focused on managing and securing physical networks and wireless communications
+
+Identity and Access Management (IAM)
+Focused on access and authorization to keep data secure, by making sure users follow established policies to control and manage assets. 
+IAM uses what is referred to as the principle of least privilege, which is the concept of granting only the minimal access and authorization required to complete a task
+Component of IAM
+Identification → when a user verifies who they are by providing a user name, an access card, or biometric data such as a fingerprint.
+Authentication → the verification process to prove a person's identity, such as entering a password or PIN
+Authorization → takes place after a user's identity has been confirmed and relates to their level of access, which depends on the role in the organization.
+Accountability → refers to monitoring and recording user actions, like login attempts, to prove systems and data are used properly.
+
+Security Assessment and Testing
+Focused on identifying and mitigating risks, threats, and vulnerabilities. 
+Security assessments help organizations determine whether their internal systems are secure or at risk. Organizations might employ penetration testers, often referred to as “pen testers,” to find vulnerabilities that could be exploited by a threat actor. 
+Security control testing can help an organization identify new and better ways to mitigate threats, risks, and vulnerabilities. 
+This involves examining organizational goals and objectives, and evaluating if the controls being used actually achieve those goals. 
+Collecting and analyzing security data regularly also helps prevent threats and risks to the organization.
+Analysts might use security control testing evaluations and security assessment reports to improve existing controls or implement new controls. 
+An example of implementing a new control could be requiring the use of multi-factor authentication to better protect the organization from potential threats and risks.
+
+Security Operations
+Focused on conducting investigations and implementing preventative measures. Investigations begin once a security incident has been identified. 
+This process requires a heightened sense of urgency in order to minimize potential risks to the organization. 
+If there is an active attack, mitigating the attack and preventing it from escalating further is essential for ensuring that private information is protected from threat actors.
+Once the threat has been neutralized, the collection of digital and physical evidence to conduct a forensic investigation will begin. 
+A digital forensic investigation must take place to identify when, how, and why the breach occurred. This helps security teams determine areas for improvement and preventative measures that can be taken to mitigate future attacks.
+Key strategies, processes, and tools for Security Operations:
+	Training
+	Reporting and documentation
+	Intrusion detection and prevention
+	SIEM tools
+	Log Management
+	Incident Management
+	Playbooks
+	Post-breach forensics
+	Reflecting on Lessons Learned
+Security Development Security
+Focuses on using secure coding practices
+Secure coding practices are recommended guidelines that are used to create secure applications and services. 
+By ensuring that each phase of the software development lifecycle undergoes security reviews, security can be fully integrated into the software product.
+For example, performing a secure design review during the design phase, secure code reviews during the development and testing phases, and penetration testing during the deployment and implementation phase ensures that security is embedded into the software product at every step. This keeps software secure and sensitive data protected and mitigates unnecessary risks to an organization.
+
+Social Engineering
+A manipulation technique that exploits human error to gain private information, access, or vulnerabilities. 
+
+Threat
+Any circumstance or event that can negatively impact assets
+
+Risk
+Likelihood of a threat occuring
+Anything that can impact the confidentiality, integrity, or vulnerability of an asset. 
+Risk is catergorized into low, medium, or high 
+
+Low-risk Asset
+Information that would not harm the organization’s reputation or ongoing operations, and would not cause financial damage if compromised. 
+This includes public information such as website content, or published research data.
+
+Medium-risk Asset
+Might include information that's not available to the public and may cause some damage to the organization's finances, reputation, or ongoing operations.
+For example, the early release of a company's quarterly earnings could impact the value of their stock.
+
+High-risk Asset
+Any information protected by regulations or laws, which if compromised, would have a severe negative impact on an organization's finances, ongoing operations, or reputation. 
+This could include leaked assets with SPII, PII, or intellectual property.
+
+Vulnerability
+A weakness that can be exploited by a threat
+Examples of vulnerabilities include: an outdated firewall, software, or application; weak passwords; or unprotected confidential data. 
+People can also be considered a vulnerability. People's actions can significantly affect an organization's internal network. Whether it's a client, external vendor, or employee, maintaining security must be a united effort.
+
+
 
