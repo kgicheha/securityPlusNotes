@@ -31,7 +31,7 @@ Prevent incidents
 Key Cybersecurity Terms and Concepts
 
 Compliance 
-Process of adhering to internal standards and external regulations and enables organization to avoid fines and security breaches
+The process of adhering to internal standards and external regulations enables an organization to avoid fines and security breaches
 
 Security Frameworks
 Guidelines used for building plans to help mitigate risks and threats to data and privacy
@@ -41,7 +41,7 @@ Safeguards designed to reduce specific security risks
 They are used with security frameworks to establish a strong security posture. 
 
 Security Posture
-An organizations ability to manage its defense of critical assets and data and react to change
+An organization's ability to manage its defense of critical assets and data and react to change
 A strong security posture leads to lower risk for the organization. 
 
 Threat Actor (or malicious attacker)
@@ -49,7 +49,7 @@ Any perso or group who presents a security risk
 The risk can relate to computers, applications, networks, and data
 
 Internal Threat
-Can be a current or former employee, an external vendor, or a trusted partners who poses a security risk
+It can be a current or former employee, an external vendor, or a trusted partner who poses a security risk
 
 Network Security
 The practice of keeping an organization’s network infrastructure secure from unauthorized access. 
@@ -105,7 +105,7 @@ Some of the most common types of malware attacks today include:
 Virus
 Malicious code written to interfere with computer operations and cause damage to data and software
 Attaches itself to a software or document then spreads itself to one or more computers in a network
-A virus needs to be initiated by a user (e.g. threat actor), who transmits the virus via a malicious attachment or file download. 
+A virus must be initiated by a user (e.g. threat actor), who transmits the virus via a malicious attachment or file download. 
 When someone opens the malicious attachment or download, the virus hides itself in other files in the now-infected systems. 
 When the infected files are opened, it allows the virus to insert its own code to damage and/or destroy data in the system
 
@@ -187,25 +187,25 @@ Urgency
 A threat actor persuades others to respond quickly and without questioning.
 
 Physical Attack
-Security incident that affects not only digital by also physical environments where the incident is deployed
+Security incident that affects not only digital but also physical environments where the incident is deployed
  
-Some forsm of physical attacks:
+Some form of physical attacks:
 Malicious USB cable
 Malicious flash drive
 Card cloning and skimming
 
-Adverserial Artificial Intelligence
+Adversarial Artificial Intelligence
 A technique that manipulates AI and machine learning technology to conduct attacks more efficiently. 
 Falls under both the communication and network security and the identity and access management domains. 
 
 Supply-chain Attack
 Targets systems, applications, hardware, and/or software to locate a vulnerability where malware can be deployed. 
-Because every items sold undergoes a process that involves third parities, this means that the security breach can occur at any point in the supply chain. 
-These attacks are costly because they can affect multiple organization and the individuals who work for them. 
+Because every item sold undergoes a process that involves third parties, this means that a security breach can occur at any point in the supply chain. 
+These attacks are costly because they can affect multiple organizations and the individuals who work for them. 
 Supply-chain attacks can fall under several domains, including but not limited to the security and risk management, security architecture and engineering, and security operations domains. 
 
 Cryptographic Attack
-Affects secure forms of communication between a sender and intended recipient. 
+Affects secure forms of communication between a sender and the intended recipient. 
 Fall under the communication and network security domain 
 
 Some forms of cryptographic attacks:
@@ -214,6 +214,7 @@ Collision
 Downgrade
 
 The Morris worm helped shape the security industry because it led to the development of computer emergency response teams, now commonly referred to as computer security incident response teams (CSIRTs). 
+Brain viruses spread globally within a couple of months due to users inserting a disk into their computers that was meant to track illegal copies of medical software. 
 
 CISSP SECURITY DOMAINS
 Helps an organization and its security team fortify against and prepare for a data breach. 
@@ -222,37 +223,37 @@ Data breaches range from simple to complex and fall under one or more domains.
 8 CISSP Security Domains
 Security & Risk Management
 Defines security goals and objectives, risk mitigation, compliance, business continuity, and law
-E.g making sure the company has policies in place that follow government rules
+E.g. make sure the company has policies in place that follow government rules
 Asset Security
 Secures digital and physical assets. It’s also related to the storage, maintenance, retention, and destruction of data. 
 Security Architecture & Engineering
 Optimizes data security by ensuring effective tools, systems, and processes are in place. 
-E.g. incomining and outgoing network traffic. 
+E.g. incoming and outgoing network traffic. 
 Communications & Network Security
-Manages and secure physical networks and wireless communications. 
+Manages and secures physical networks and wireless communications. 
 E.g. creating network policies
 Identity & Access Management
 Keeps data source, by ensuring users follow established policies to control and manage physical assets, like office spaces, and logical assets, such as networks and applications. 
 E.g. setting up employee keycards
 Security Assessment & Testing
 Conducting security control testing, collecting and analyzing data, and conducting security audits to monitor for risks, threats, and vulnerabilities. 
-E.g. Conducting audits of user permissions to make sure that users have the correct user access and no unauthorized users have access to the certain data
+E.g. Conducting audits of user permissions to make sure that users have the correct user access and no unauthorized users have access to certain data
 Security Operations
 Conducting investigations and implementing preventative measures. 
-E.g. if a unathorized device gains access to the companies networks, an analyst will need to follow the polices and procedures to stop the device. 
+E.g. if an unauthorized device gains access to the company's networks, an analyst will need to follow the policies and procedures to stop the device. 
 Software Development Security
 Uses secure coding practices, which are a set of recommended guidelines that are used to create secure applications and services. 
-Work with software development teams to ensure that security practices are incorporated into the software development lift cycle
-E.g. advices on the password policies or ensure that the user data is properly secured and managed.
+Work with software development teams to ensure that security practices are incorporated into the software development life cycle
+E.g. advice on the password policies or ensuring that the user data is properly secured and managed.
 
 
 Threat Actor Types
 
 Advanced persistent threats (APTs)
 Have significant expertise accessing an organization’s network without authorization. 
-Tens to research their targets (e.g. large corporation or government entities) in advance and can remain undetected for an extended period of time. 
+Tens to research their targets (e.g. large corporations or government entities) in advance and can remain undetected for an extended period of time. 
 Their intentions and motivations can include:
-Damaging critical infrastructure, such as a power grid and nature resources
+Damaging critical infrastructure, such as the power grid and natural resources
 Gaining access to intellectual property, such as trade secrets and patents
 
 Insider Threats
@@ -268,16 +269,16 @@ Driven by a political agenda.
 They abuse digital technology to accomplish their goals, which may include:
 Demonstrations
 Propaganda
-Social charge campaigns
+Social change campaigns
 Fame
 
 Hacker Types
-Hacker is a person who uses computers to gain access to computer systems, network, or data. 
+A hacker is a person who uses computers to gain access to computer systems, networks, or data. 
 
 3 Main categories of hackers:
 Ethical hackers/ Authorized hackers
 They follow a code of ethics and adhere to the law to conduct risk evaluations 
-They are motivated to safeguard people and organization from malicious threat actors
+They are motivated to safeguard people and organizations from malicious threat actors
 Researches/ Semi-authorized hackers
 They search for vulnerabilities but don’t take advantage of the vulnerabilities they find
 Unethical hackers/ Unauthorized hackers
@@ -290,6 +291,10 @@ Threat actor goals include:
 To learn and enhance their skills
 To seek revenge
 To exploit security weaknesses by using existing malware, programming scripts, and other tactics. 
+
+Steps to manage risks 
+Identify the company’s critical assets and risks 
+Implement the necessary frameworks and controls
 
 Compliance 
 Process of adhering to internal standards and external regulations.
@@ -342,6 +347,18 @@ An item perceived as having value to an organization
 Value
 Determined by the cost associated with the asset in question.
 
+Key goals for security professionals 
+Managing and mitigating risks
+Protecting an organization's assets from threat actors 
+Understanding the different motives a threat actor may have
+Identifying your organization's most valuable assets is
+
+Security Architecture
+A type of security design composed of multiple components, such as tools and processes, that are used to protect an organization from risks and external threats
+
+Security Governance
+Practices that help support, define, and direct security efforts of an organization
+
 National Institute of Standards and Technology (NIST) 
 U.S.-based agency that develops multiple voluntary compliance frameworks that organizations worldwide can use to help manage risk. 
 The more aligned an organization is with compliance, the lower the risk.
@@ -349,12 +366,6 @@ Specifications and guidelines can change depending on the type of organization y
 
 NIST Cybersecurity Framework (CSF)
 A voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk
-
-Key goals for security professionals 
-Managing and mitigating risks
-Protecting an organization's assets from threat actors 
-Understanding the different motives a threat actor may have
-Identifying your organization's most valuable assets is
 
 The Federal Risk and Authorization Management Program (FedRAMP®)
 U.S. federal government program that standardizes security assessment, authorization, monitoring, and handling of cloud services and product offerings. 
@@ -385,9 +396,111 @@ Vendor
 Others 
 
 
+
+
 Ethics in Cybersecurity
 
 Security Ethics
 Guidelines for making appropriate decisions as a security professional
+Having a strong sense of ethics can guide your decisions to ensure that the proper processes and procedures are followed to mitigate these continually evolving risks.
 
+
+
+
+
+
+
+
+IMPORTANT CYBERSECURITY TOOLS
+
+Log
+A record of events that occur within an organization’s systems
+Examples of security-related logs include records of employees signing into their computers or accessing web-based services. 
+Logs help security professionals identify vulnerabilities and potential security breaches.
+
+Security Information and Event Management tools(SIEM tools)
+Tool is an application that collects and analyzes log data to monitor critical activities in an organization
+SIEM tools collect real-time, or instant, information, and allow security analysts to identify potential breaches as they happen.
+SIEM tools reduce the amount of data an analyst must review by providing alerts for specific types of risks and threats
+SIEMs in general, collect data from multiple places, then analyze and filter that data to allow security teams to prevent and quickly react to potential security threats.
+
+As a security analyst, you may find yourself using SIEM tools to analyze filtered events and patterns, perform incident analysis, or proactively search for threats. 
+Depending on your organization's SIEM setup and risk focus, the tools and how they function may differ, but ultimately, they are all used to mitigate risk.
+
+Commonly used SIEM tools
+Splunk
+A data analysis platform, and Splunk Enterprise provides SIEM solutions. Splunk Enterprise is a self-hosted tool used to retain, analyze, and search an organization's log data
+Google's Chronicle
+A cloud-native SIEM tool that stores security data for search and analysis. 
+Cloud-native means that Chronicle allows for fast delivery of new features.
+
+Playbook
+a manual that provides details about any operational action, such as how to respond to an incident
+Guides analysts in how to handle a security incident before, during, and after it has occurred. 
+
+Playbooks can pertain to security or compliance reviews, access management, and many other organizational tasks that require a documented process from beginning to end.
+
+Network Protocol Analyzer(packet sniffer) 
+A packet sniffer is a tool designed to capture and analyze data traffic within a network. Common network protocol analyzers include tcpdump and Wireshark.
+This means that the tool keeps a record of all the data that a computer within an organization's network encounters
+
+Dashboard
+A tool used to visually communicate information or data
+
+Programming
+Used to create a specific set of instructions for a computer to execute tasks
+Allows analysts to complete repetitive tasks and processes with a high degree of accuracy and efficiency. It Also helps reduce the risk of human error, and can save hours or days compared to performing the work manually. 
+
+Operating Systems
+The interface between computer hardware and the user
+
+Linux
+An open-source operating system
+Relies on a command line as the primary user interface
+Linux can be used to examine logs to better understand what's occurring in a system. 
+For example, you might find yourself using commands to review an error log when investigating uncommonly high network traffic.
+
+Structured Query Language (SQL)
+Programming language used to create, interact with, and request information from a database. 
+security analyst would use SQL to filter through the data points to retrieve specific information.
+
+Database
+An organized collection of information or data
+
+Data Point
+A specific piece of information. 
+
+Web Vulnerability
+A unique flaw in a web application that a threat actor could exploit by using malicious code or behavior, to allow unauthorized access, data theft, and malware deployment.
+
+Antivirus Software
+A software program used to prevent, detect, and eliminate malware and viruses
+
+
+
+Intrusion Detection System (IDS) 
+An application that monitors system activity and alerts on possible intrusions. 
+The system scans and analyzes network packets, which carry small amounts of data through a network. 
+The small amount of data makes the detection process easier for an IDS to identify potential threats to sensitive data. 
+Other occurrences an IDS might detect can include theft and unauthorized access.
+
+Encryption 
+Makes data unreadable and difficult to decode for an unauthorized user; its main goal is to ensure the confidentiality of private data.
+
+Cryptographic Encoding 
+converting plaintext into secure ciphertext. 
+
+Plaintext
+Unencrypted information 
+
+Secure Ciphertext 
+The result of encryption  
+
+Encoding vs Encryption
+Encoding is for maintaining data usability and can be reversed by employing the same algorithm that encoded the content, i.e. no key is used. 
+Encryption is for maintaining data confidentiality and requires the use of a key (kept secret) in order to return to plaintext.
+
+Penetration testing, also called pen testing
+The act of participating in a simulated attack helps identify vulnerabilities in systems, networks, websites, applications, and processes.
+It is a thorough risk assessment that can evaluate and identify external and internal threats as well as weaknesses.
 
