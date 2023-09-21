@@ -73,9 +73,9 @@ Threat
 Any circumstance or event that can negatively impact assets
 
 Risk
-Likelihood of a threat occuring
+The likelihood of a threat occurring
 Anything that can impact the confidentiality, integrity, or vulnerability of an asset. 
-Risk is catergorized into low, medium, or high 
+Risk is categorized into low, medium, or high 
 
 Low-risk Asset
 Information that would not harm the organization’s reputation or ongoing operations, and would not cause financial damage if compromised. 
@@ -83,7 +83,7 @@ This includes public information such as website content, or published research 
 
 Medium-risk Asset
 Might include information that's not available to the public and may cause some damage to the organization's finances, reputation, or ongoing operations.
-For example, the early release of a company's quarterly earnings could impact the value of their stock.
+For example, the early release of a company's quarterly earnings could impact the value of its stock.
 
 High-risk Asset
 Any information protected by regulations or laws, which if compromised, would have a severe negative impact on an organization's finances, ongoing operations, or reputation. 
@@ -91,8 +91,8 @@ This could include leaked assets with SPII, PII, or intellectual property.
 
 Vulnerability
 A weakness that can be exploited by a threat
-Examples of vulnerabilities include: an outdated firewall, software, or application; weak passwords; or unprotected confidential data. 
-People can also be considered a vulnerability. People's actions can significantly affect an organization's internal network. Whether it's a client, external vendor, or employee, maintaining security must be a united effort.
+Examples of vulnerabilities include an outdated firewall, software, or application; weak passwords; or unprotected confidential data. 
+People can also be considered vulnerable. People's actions can significantly affect an organization's internal network. Whether it's a client, external vendor, or employee, maintaining security must be a united effort.
 
-
-
+Ransomware
+Malicious attacks where threat actors encrypt an organization’s data and demand payment to restore access
