@@ -96,3 +96,135 @@ People can also be considered vulnerable. People's actions can significantly aff
 
 Ransomware
 Malicious attacks where threat actors encrypt an organization’s data and demand payment to restore access
+Once ransomware is deployed by an attacker, it can:
+Freeze network systems
+Leave devices unusable
+Encrypt, or lock confidential data, making devices inaccessible.
+
+
+
+
+
+
+
+Risk Management Framework (RMF)
+
+Prepare 
+Activities that are necessary to manage security and privacy risks before a breach occurs
+Use this step to monitor for risks and identify controls that can be used to reduce those risks.
+
+Categorize
+Used to develop risk management processes and tasks
+Security professionals then use those processes and develop tasks by thinking about how the confidentiality, integrity, and availability of systems and information can be impacted by risk.
+Understand how to follow the processes established by your organization to reduce risks to critical assets, such as private customer information.
+
+Select
+To choose, customize, and capture documentation of the controls that protect an organization. 
+An example of the select step would be keeping a playbook up-to-date or helping to manage other documentation that allows you and your team to address issues more efficiently.
+
+Implement security and privacy plans
+Having good plans in place is essential for minimizing the impact of ongoing security risks. 
+For example, if you notice a pattern of employees constantly needing password resets, implementing a change to password requirements may help solve this issue.
+
+Access
+To determine if established controls are implemented correctly. 
+An organization always wants to operate as efficiently as possible. 
+So it's essential to take the time to analyze whether the implemented protocols, procedures, and controls that are in place are meeting organizational needs. 
+During this step, analysts identify potential weaknesses and determine whether the organization's tools, procedures, controls, and protocols should be changed to better manage potential risks.
+
+Authorize
+Being accountable for the security and privacy risks that may exist in an organization. 
+As an analyst, the authorization step could involve generating reports, developing plans of action, and establishing project milestones that are aligned with your organization's security goals.
+
+Monitor
+To be aware of how systems are operating. 
+Assessing and maintaining technical operations are tasks that analysts complete daily. 
+Part of maintaining a low level of risk for an organization is knowing how the current systems support the organization's security goals. 
+If the systems in place don't meet those goals, changes may be needed.
+
+
+
+
+
+
+
+Common strategies used to manage risks include:
+
+Acceptance: Accepting a risk to avoid disrupting business continuity
+
+Avoidance: Creating a plan to avoid the risk altogether
+
+Transference: Transferring risk to a third party to manage
+
+Mitigation: Lessening the impact of a known risk
+
+Vulnerability 
+A weakness that can be exploited by a threat. Therefore, organizations need to regularly inspect for vulnerabilities within their systems. 
+
+Some vulnerabilities include:
+
+ProxyLogon
+A pre-authenticated vulnerability that affects the Microsoft Exchange server. 
+This means a threat actor can complete a user authentication process to deploy malicious code from a remote location.
+
+ZeroLogon
+A vulnerability in Microsoft’s Netlogon authentication protocol. 
+An authentication protocol is a way to verify a person's identity. 
+Netlogon is a service that ensures a user’s identity before allowing access to a website's location.
+
+Log4Shell
+Allows attackers to run Java code on someone else’s computer or leak sensitive information. 
+It does this by enabling a remote attacker to take control of devices connected to the internet and run malicious code.
+
+PetitPotam
+Affects Windows New Technology Local Area Network (LAN) Manager (NTLM). 
+It is a theft technique that allows a LAN-based attacker to initiate an authentication request.
+
+Security logging and monitoring failures
+Insufficient logging and monitoring capabilities result in attackers exploiting vulnerabilities without the organization knowing it
+
+Server-side request forgery
+Allows attackers to manipulate a server-side application into accessing and updating backend resources. It can also allow threat actors to steal data.
+
+
+Security Frameworks
+Guidelines used for building plans to help mitigate risk and threats to data and privacy. 
+Frameworks can be used to create plans that increase employee awareness and educate them about how they can protect the organization, their co-workers, and themselves. 
+Educating employees about existing security challenges is essential for minimizing the possibility of a breach.
+
+Security Controls
+Safeguards designed to reduce specific security risks
+
+Types of Security Controls
+Encryption
+Process of converting data from a readable format to an encoded format
+Typically, encryption involves converting data from plaintext to ciphertext. 
+Ciphertext is the raw, encoded message that's unreadable to humans and computers. 
+Ciphertext data cannot be read until it's been decrypted into its original plaintext form
+Authentication
+The process of verifying who someone or something is. 
+A real-world example of authentication is logging into a website with your username and password.
+Another example: multi-factor authentication
+Authorization 
+Refers to the concept of granting access to specific resources within a system.
+Authorization is used to verify that a person has permission to access a resource.
+
+Cyber Threat Framework (CTF)
+Provides “a common language for describing and communicating information about cyber threat activity.
+By providing a common language to communicate information about threat activity, the CTF helps cybersecurity professionals analyze and share information more efficiently. 
+This allows organizations to improve their response to the constantly evolving cybersecurity landscape and threat actors' many tactics and techniques.
+
+International Organization for Standardization/International Electrotechnical Commission (ISO/IEC) 27001
+A Family of standards enables organizations of all sectors and sizes to manage the security of assets, such as financial information, intellectual property, employee data, and information entrusted to third parties. 
+This framework outlines requirements for an information security management system, best practices, and controls that support an organization’s ability to manage risks.
+
+CIA Triad
+A foundational security model used to set up security policies and systems. 
+Confidentiality → only authorized users can access specific assets or data
+Integrity → the data is correct, authentic, and reliable
+Availability → data is accessible to those who are authorized to access it. 
+
+National Institute of Standards and Technology Framework (NIST Framework)
+
+NIST Cybersecurity Framework (CSF)
+A voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk
