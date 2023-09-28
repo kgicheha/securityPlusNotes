@@ -132,5 +132,103 @@ Security personnel are interested in network bandwidth and speed because if eith
 Packet sniffing
 The practice of capturing and inspecting data packets across the network.
 
+Transmission Control Protocol (or TCP)
+An internet communication protocol that allows two devices to form a connection and stream data. 
+The protocol includes a set of instructions to organize data, so it can be sent across a network.
+It also establishes a connection between two devices and makes sure that packets reach their appropriate destination.
 
 
+Internet Protocol (or IP) 
+Has a set of standards used for routing and addressing data packets as they travel between devices on a network. 
+Included in the Internet Protocol (IP) is the IP address that functions as an address for each private network. 
+The header of an IP packet contains:  
+The sender’s IP address
+The size of the packet
+The protocol to use. 
+
+Port 
+A software-based location that organizes the sending and receiving of data between devices on a network. 
+Ports divide network traffic into segments based on the service they will perform between two devices. 
+The computers sending and receiving these data segments know how to prioritize and process these segments based on their port number.
+This is like sending a letter to a friend who lives in an apartment building. The mail delivery person not only knows how to find the building, but they also know exactly where to go in the building to find the apartment number where your friend lives.
+
+Port numbers 
+Allow computers to split the network traffic and prioritize the operations they will perform with the data. 
+Some common port numbers are: 
+port 25 → used for e-mail
+port 443 →used for secure internet communication
+port 20 → for large file transfers.
+
+Transmission Control Protocol/ Internet Protocol model (or TCP/IP Model)
+A framework used to visualize how data is organized and transmitted across the network
+Standard model used for network communication.
+Knowing how the TCP/IP model organizes network activity allows security professionals to monitor and secure against risks.
+
+Layers of the TCP/IP Model
+Network Access Layer
+Deals with creation of data packets and their transmission across a network. 
+This includes hardware devices connected to physical cables and switches that direct data to its destination.
+
+Internet Layer
+Where IP addresses are attached to data packets to indicate the location of the sender and receiver. The internet layer also focuses on how networks connect to each other. 
+For example, data packets containing information that determine whether they will stay on the LAN or will be sent to a remote network, like the internet.
+
+Transport Layer
+Controls the flow of traffic across a network. 
+These protocols permit or deny communication with other devices and include information about the status of the connection. 
+Activities of this layer include error control, which ensures data is flowing smoothly across the network.
+
+Application Layer
+Protocols determine how the data packets will interact with receiving devices. 
+Functions that are organized at application layer include file transfers and email services.
+OSI Model
+Standardized concept that describes the seven layers computers use to communicate and send data over the network. 
+Network and security professionals often use this model to communicate with each other about potential sources of problems or security threats when they occur.
+
+Layers of the OSI Model
+
+Physical Layer
+Corresponds to the physical hardware involved in network transmission. 
+Hubs, modems, and the cables and wiring that connect them are all considered part of the physical layer.
+
+Data link layer
+Organizes sending and receiving data packets within a single network. The data link layer is home to switches on the local network and network interface cards on local devices.
+
+Protocols like network control protocol (NCP), high-level data link control (HDLC), and synchronous data link control protocol (SDLC) are used at the data link layer.
+
+Network layer
+Oversees receiving the frames from the data link layer (layer 2) and delivers them to the intended destination. 
+The intended destination can be found based on the address that resides in the frame of the data packets. 
+Data packets allow communication between two networks. 
+These packets include IP addresses that tell routers where to send them. They are routed from the sending network to the receiving network. 
+
+Transport layer
+Responsible for delivering data between devices. 
+This layer also handles the speed of data transfer, flow of the transfer, and breaking data down into smaller segments to make them easier to transport. 
+Segmentation is the process of dividing up a large data transmission into smaller pieces that can be processed by the receiving system. 
+These segments need to be reassembled at their destination so they can be processed at the session layer (layer 5). 
+The speed and rate of the transmission also has to match the connection speed of the destination system. 
+TCP and UDP are transport layer protocols. 
+
+Session layer
+A session describes when a connection is established between two devices. 
+An open session allows the devices to communicate with each other. 
+Session layer protocols occur to keep the session open while data is being transferred and terminate the session once the transmission is complete. 
+
+The session layer is also responsible for activities such as authentication, reconnection, and setting checkpoints during a data transfer. 
+If a session is interrupted, checkpoints ensure that the transmission picks up at the last session checkpoint when the connection resumes. 
+Sessions include a request and response between applications. 
+Functions in the session layer respond to requests for service from processes in the presentation layer (layer 6) and send requests for services to the transport layer (layer 4).
+
+Presentation layer
+Functions at the presentation layer involve data translation and encryption for the network. 
+This layer adds to and replaces data with formats that can be understood by applications (layer 7) on both sending and receiving systems. 
+Formats at the user end may be different from those of the receiving system. 
+Processes at the presentation layer require the use of a standardized format.
+
+Some formatting functions that occur at layer 6 include encryption, compression, and confirmation that the character code set can be interpreted on the receiving system. 
+One example of encryption that takes place at this layer is SSL, which encrypts data between web servers and browsers as part of websites with HTTPS.
+
+Application layer
+Includes processes that directly involve the everyday user. This layer includes all of the networking protocols that software applications use to connect a user to the internet. This characteristic is the identifying feature of the application layer—user connection to the network via applications and requests.
+An example of a type of communication that happens at the application layer is using a web browser. The internet browser uses HTTP or HTTPS to send and receive information from the website server.
