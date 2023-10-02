@@ -293,3 +293,198 @@ A unique alphanumeric identifier that is assigned to each physical device on a n
 When a switch receives a data packet, it reads the MAC address of the destination device and maps it to a port. It then keeps this information in a MAC address table. 
 Think of the MAC address table like an address book that the switch uses to direct data packets to the appropriate device.
 
+Network protocols
+A set of rules used by two or more devices on a network to describe the order of delivery and the structure of the data.
+
+Categories of the Network Protocol 
+Communcation Protocols
+Governs the exchange of information in network transmission. 
+They dictate how the data is transmitted between devices and the timing of the communication. Includes TCP, UDP, HTTP, DNS
+
+Management Protocols
+Used for monitoring and managing activity on a network
+They include: SNMP, ICMP
+
+Security Protocols
+Ensures that data is sent and received securely across a network
+Use encryption to protect data in transit
+Includes HTTPS, STTP
+
+Transmission Control Protocol (TCP)
+An internet communication protocol that allows two devices to form a connection and stream data
+
+TCP Handshake
+Verifies both devices before allowing any further communications to take place. 
+Once communication is established using a TCP handshake, a request is made to the network
+
+Address Resolution Protocol (or ARP)
+Used to determine the MAC address of the next router or device on the path. 
+This ensures that the data gets to the right place. 
+Doesn’t have a specific port number
+
+Domain Name System, or DNS
+A network protocol that translate internet domain names into IP addresses. 
+The DNS protocol sends the domain name and the web address to a DNS server that retrieves the IP address of the website you were trying to access
+
+Simple Network Managment Protocol (SNMP)
+Used for monitoring and managing devices on a network
+Can be used to reset a passwork on a network devices or change its baseline configuration. 
+Can also send requests to network devices for a report on how much of the network’s bandwidth is being used up. 
+Occurs in the Application layer 
+Internet Conrol Message Protocol (ICMP)
+Used by devices to tell each other about data transmission errors across the network
+Used by a receiving device to send a report to the sending device about the data transmission
+Commonly used as a way to troubleshoot network connectivity and latency by issuing the “ping” command on a Linux operating system
+Occurs at the Internet Layer
+
+Hypertext Transfer Protocol Secure, or HTTPS
+A network protocol that provides a secure method of communication between client and website servers. It allows your web browser to securely send a request for a webpage to the Yummy Recipes For Me server and receive a webpage as a response.
+
+Secure File Transfer Protocol (SFTP)
+Used to securely transfer files from one device to another onver a network 
+Uses Secure Shell (SSH), typically though TCP port 22
+SSH uses Advanced Encryption Standard (AES) and other types of encryption to ensure that unintended recipients cannot intercept the transmissions. 
+Occurs at the Application layer
+Used often with cloud storage. 
+Every time a user uploads or downloads a file from cloud storage, the file is transferred using the SFTP protocol. 
+
+Network Address Translation (NAT)
+Enables private IP networks to use the internet and cloud. 
+NAT translates private iP addresses in an internal network to a public IP address before packets are sent to an external network
+Occurs in the layer 2 (Internet Layer) and Layer 3 (Transport layer)
+
+Dynamic Host Configuration Protocol
+management family of network protocols. 
+DHCP is an application layer protocol used on a network to configure devices. 
+It assigns a unique IP address and provides the addresses of the appropriate DNS server and default gateway for each device. 
+DHCP servers operate on UDP port 67 while DHCP clients operate on UDP port 68.
+
+Telnet
+An application layer protocol that allows a device to communicate with another device or server
+Telnet sends all information in clear text. 
+It uses command line prompts to control another device similar to secure shell (SSH), but Telnet is not as secure as SSH. 
+Telnet can be used to connect to local or remote devices
+Uses TCP port 23.
+
+Secure shell protocol (SSH) 
+used to create a secure connection with a remote system. This application layer protocol provides an alternative for secure authentication and encrypted communication. 
+SSH operates over the TCP port 22 and is a replacement for less secure protocols, such as Telnet.
+Post Office Protocol (POP)
+An application layer (layer 4 of the TCP/IP model) protocol used to manage and retrieve email from a mail server.
+Many organizations have a dedicated mail server on the network that handles incoming and outgoing mail for users on the network
+Unencrypted, plaintext authentication uses TCP/UDP port 110 
+Encrypted emails use Secure Sockets Layer/Transport Layer Security (SSL/TLS) over TCP/UDP port 995
+
+Internet Message Access Protocol (IMAP)
+used for incoming email. It downloads the headers of emails, but not the content. 
+The content remains on the email server, which allows users to access their email from multiple devices. 
+IMAP uses TCP port 143 for unencrypted email
+TCP port 993 over the TLS protocol. 
+Using IMAP allows users to partially read email before it is finished downloading and to sync emails.
+However, IMAP is slower than POP3.
+
+Simple Mail Transfer Protocol (SMTP) 
+Used to transmit and route email from the sender to the recipient’s address. 
+SMTP works with Message Transfer Agent (MTA) software, which searches DNS servers to resolve email addresses to IP addresses, to ensure emails reach their intended destination. 
+SMTP uses TCP/UDP port 25 for unencrypted emails 
+TCP/UDP port 587 using TLS for encrypted emails. 
+The TCP port 25 is often used by high-volume spam.
+SMTP helps to filter out spam by regulating how many emails a source can send at a time.
+
+Protocol
+Port
+DHCP
+UDP port 67 (servers)
+
+UDP port 68 (clients)
+
+
+ARP
+none
+Telnet
+TCP port 23
+SSH
+TCP port 22
+POP3
+TCP/UDP port 110 (unencrypted)
+
+TCP/UDP port 995 (encrypted, SSL/TLS)
+
+
+IMAP
+TCP port 143 (unencrypted)
+
+TCP port 993 (encrypted, SSL/TLS)
+
+
+SMTP
+TCP/UDP port 587 (encrypted, TLS)
+
+
+
+Wireless Protocols
+
+EEE802.11, commonly known as Wi-Fi
+A set of standards that define communications for wireless LANs.
+ IEEE stands for the Institute of Electrical and Electronics Engineers, which is an organization that maintains Wi-Fi standards, and 802.11 is a suite of protocols used in wireless communications.
+
+WiFi Protected Access (WPA)
+A wireless security protocol for devices to connect to the internet
+
+Wired equivalent privacy (WEP) 
+A wireless security protocol designed to provide users with the same level of privacy on wireless network connections as they have on wired network connections
+
+WPA2
+The second version of Wi-Fi Protected Access—known as WPA2—was released in 2004. WPA2 improves upon WPA by using the Advanced Encryption Standard (AES)
+WPA2 personal mode is best suited for home networks for a variety of reasons. It is easy to implement, initial setup takes less time for personal than enterprise version. 
+
+WPA2 enterprise mode works best for business applications. It provides the necessary security for wireless networks in business settings. The initial setup is more complicated than WPA2 personal mode, but enterprise mode offers individualized and centralized control over the Wi-Fi access to a business network. 
+
+
+WPA3 
+A secure Wi-Fi protocol is growing in usage as more WPA3-compatible devices are released. 
+These are the key differences between WPA2 and WPA3:
+
+WPA3 addresses the authentication handshake vulnerability to KRACK attacks, which is present in WPA2. 
+
+WPA3 uses Simultaneous Authentication of Equals (SAE), a password-authenticated, cipher-key-sharing agreement. This prevents attackers from downloading data from wireless network connections to their systems to attempt to decode it.
+
+WPA3 has increased encryption to make passwords more secure by using 128-bit encryption, with WPA3-Enterprise mode offering optional 192-bit encryption.
+
+
+
+Firewall 
+A network security device that monitors traffic to and from your network
+It either allows traffic or blocks it based on a defined set of security rules. 
+A firewall can use port filtering, which blocks or allows certain port numbers to limit unwanted communication. 
+For example, it could have a rule that only allows communications on port 443 for HTTPS or port 25 for email and blocks everything else. 
+These firewall settings will be determined by the organization's security policy.
+
+Hardware firewall 
+Inspects each data packet before it's allowed to enter the network
+
+Software firewall 
+Performs the same functions as a hardware firewall, but it's not a physical device. Cost less than hardware firewall 
+A software program is installed on a computer or on a server. 
+If the software firewall is installed on a computer, it will analyze all the traffic received by that computer.
+Suppose the software firewall is installed on a server. In that case, it will protect all the devices connected to the server
+
+Firewall as a Service (FaaS)
+Cloud-based firewalls software firewalls hosted by a cloud service provider.
+Organizations can configure the firewall rules on the cloud service provider's interface, and the firewall will perform security operations on all incoming traffic before it reaches the organization’s onsite network.
+Cloud-based firewalls also protect any assets or processes an organization might use in the cloud.
+
+Stateful firewall 
+Refers to a class of firewalls that keeps track of information passing through it and proactively filters out threats.
+Analyze network traffic for characteristics and behaviors that appear suspicious and stop them from entering the network. 
+
+Stateless firewall
+Refers to a class of firewalls that operates based on predefined rules and does not keep track of information from data packets. 
+A stateless firewall only acts according to preconfigured rules set by the firewall administrator. 
+It doesn't store analyzed information. 
+It also doesn't discover suspicious trends like a stateful firewall does. For this reason, stateless firewalls are considered less secure than stateful firewalls.
+
+Next-generation firewall(or NGFW)
+Provides even more security than a stateful firewall. 
+Not only does an NGFW provide stateful inspection of incoming and outgoing traffic, but it also performs more in-depth security functions like deep packet inspection and intrusion protection. 
+Some NGFWs connect to cloud-based threat intelligence services so they can quickly update to protect against emerging cyber threats.
