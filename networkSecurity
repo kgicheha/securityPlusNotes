@@ -297,8 +297,8 @@ Network protocols
 A set of rules used by two or more devices on a network to describe the order of delivery and the structure of the data.
 
 Categories of the Network Protocol 
-Communcation Protocols
-Governs the exchange of information in network transmission. 
+Communication Protocols
+Govern the exchange of information in network transmission. 
 They dictate how the data is transmitted between devices and the timing of the communication. Includes TCP, UDP, HTTP, DNS
 
 Management Protocols
@@ -488,3 +488,108 @@ Next-generation firewall(or NGFW)
 Provides even more security than a stateful firewall. 
 Not only does an NGFW provide stateful inspection of incoming and outgoing traffic, but it also performs more in-depth security functions like deep packet inspection and intrusion protection. 
 Some NGFWs connect to cloud-based threat intelligence services so they can quickly update to protect against emerging cyber threats.
+
+Virtual Private Networks (VPNs)
+A service that encrypts data in transit and disguises your IP address
+Changes your public IP address and hides your virtual location so that you can keep your data private when you're using a public network like the internet.
+Also, encrypt your data as it travels across the internet to preserve confidentiality. 
+A VPN service performs encapsulation on your data in transit. Encapsulation is a process performed by a VPN service that protects your data by wrapping sensitive data in other data packets.
+VPN services encrypt your data packets and encapsulate them in other data packets that the routers can read. This allows your network requests to reach their destination but still encrypts your personal data so it's unreadable while in transit.
+A VPN also uses an encrypted tunnel between your device and the VPN server. The encryption is unhackable without a cryptographic key, so no one can access your data.
+VPN is similar to a network protocol: It’s a set of rules or instructions that will determine how data moves between endpoints. 
+
+Types of VPNs:
+Remote Access
+Establishes  a connection between a personal device and a VPN server and encrypt or decrypt data exchanged with a personal device
+
+Site-to-site
+ Enterprises use site-to-site VPNs largely to extend their network to different locations and networks. 
+
+Network segmentation
+A security technique that divides the network into segments
+Each network segment has its own access permissions and security rules
+
+Security zones 
+Control who can access different segments of a network. 
+Act as a barrier to internal networks, maintain privacy within corporate groups and prevent issues from spreading to the whole network. 
+One example of network segmentation is a hotel that offers free public Wi-Fi. The unsecured guest network is kept separate from another encrypted network used by the hotel staff.
+
+Types of Security Zones
+
+Uncontrolled zone
+any network outside of the organization's control, like the internet
+
+Controlled Zone
+A subnet that protects the internal network from the uncontrolled zone.
+
+Areas in a Controlled Zone
+A demilitarized zone (or DMZ) 
+Contains public-facing services that can access the internet
+This includes web servers, proxy servers that host websites for the public, and DNS servers that provide IP addresses for internet users. It also includes email and file servers that handle external communications
+The DMZ acts as a network perimeter to the internal network.
+	The DMZ is situated between two firewalls:
+One of them filters traffic outside the DMZ, and one of them filters traffic entering the internal network. This protects the internal network with several lines of defense.
+
+Internal network 
+Contains private servers and data that the organization needs to protect. 
+Inside the internal network is another zone called the restricted zone. 
+The restricted zone protects highly confidential information that is only accessible to employees with certain privileges.
+
+Restricted Zone
+Highly confidential information that is only accessible to employees with certain privileges.
+If there's a restricted zone, that too would be protected with another firewall
+
+As a security analyst, you may be responsible for regulating access control policies on these firewalls. Security teams can control traffic reaching the DMZ and the internal network by restricting IPs and ports. For example, an analyst may ensure that only HTTPS traffic is allowed to access web servers in the DMZ.
+
+Subnetting 
+The subdivision of a network into logical groups called subnets. It works like a network inside a network. 
+These smaller subnets form based on the IP addresses and network masks of the devices on the network. 
+Subnetting creates a network of devices to function as their own network. This makes the network more efficient and can also be used to create security zones. 
+It allows network professionals and analysts to create a network within their own network without requesting another network IP address from their internet service provider.
+
+Classless Inter-Domain Routing (CIDR) 
+A method of assigning subnet masks to IP addresses to create a subnet
+CIDR allows cybersecurity professionals to segment classful networks into smaller chunks. 
+Classless CIDR addressing expanded the number of available IPv4 addresses. 
+Example of CIDR IP address: 198.51.100.0/24, which encompasses all IP addresses between 198.51.100.0 and 198.51.100.255. 
+The system of CIDR addressing reduces the number of entries in routing tables and provides more available IP addresses within networks
+
+Proxy Server
+Utilizes network address translation (NAT) to serve as a barrier between clients on the network and external threats.
+A server that fulfills the request of a client by forwarding them on to other servers. 
+When a request to connect to the network comes in from the internet, the proxy server will determine if the connection request is safe. 
+The proxy server is a public IP address that is different from the rest of the private network. This hides the private network's IP address from malicious actors on the internet and adds a layer of security.
+It can also be used to block unsafe websites that users aren't allowed to access on an organization's network. 
+A proxy server uses temporary memory to store data that's regularly requested by external servers. 
+This way, it doesn't have to fetch data from an organization's internal servers every time. This enhances security by reducing contact with the internal server.
+
+Types of Proxy Servers
+Forward proxy server
+Handles queries from internal clients when they access resources external to the network
+Regulates and restricts a person with access to the internet. 
+The goal is to hide a user's IP address and approve all outgoing requests. 
+In the context of an organization, a forward proxy server receives outgoing traffic from an employee, approves it, and then forwards it on to the destination on the internet.
+
+Reverse proxy server 
+Handles requests from external systems to services on the internal network
+Regulates and restricts the internet access to an internal server. 
+The goal is to accept traffic from external parties, approve it, and forward it to the internal servers. 
+This setup is useful for protecting internal web servers containing confidential data from exposing their IP address to external parties
+
+Email proxy server
+Another valuable security tool.
+It filters spam email by verifying whether a sender's address was forged. 
+This reduces the risk of phishing attacks that impersonate people known to the organization.
+
+WireGuard VPN
+High-speed VPN protocol, with advanced encryption, to protect users when they are accessing the internet. It’s designed to be simple to set up and maintain.
+This protocol is useful for processes that require faster download speeds, such as streaming video content or downloading large files.
+Can be used for both site-to-site and remote access connections.
+
+
+IPSec VPN
+Another VPN protocol that may be used to set up VPNs. Most VPN providers use IPSec to encrypt and authenticate data packets in order to establish secure, encrypted connections. 
+Since IPSec is one of the earlier VPN protocols, many operating systems support IPSec from VPN providers.
+Can be used to create site-to-site connections 
+Some clients may prefer IPSec due to its longer history of use, extensive security testing, and widespread adoption. However, others may prefer WireGuard because of its potential for better performance and simpler configuration.
+
