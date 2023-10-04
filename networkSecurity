@@ -331,6 +331,7 @@ Used for monitoring and managing devices on a network
 Can be used to reset a password on a network devices or change its baseline configuration. 
 Can also send requests to network devices for a report on how much of the network’s bandwidth is being used up. 
 Occurs in the Application layer 
+
 Internet Conrol Message Protocol (ICMP)
 Used by devices to tell each other about data transmission errors across the network
 Used by a receiving device to send a report to the sending device about the data transmission
@@ -369,6 +370,7 @@ Uses TCP port 23.
 Secure shell protocol (SSH) 
 used to create a secure connection with a remote system. This application layer protocol provides an alternative for secure authentication and encrypted communication. 
 SSH operates over the TCP port 22 and is a replacement for less secure protocols, such as Telnet.
+
 Post Office Protocol (POP)
 An application layer (layer 4 of the TCP/IP model) protocol used to manage and retrieve email from a mail server.
 Many organizations have a dedicated mail server on the network that handles incoming and outgoing mail for users on the network
@@ -642,4 +644,50 @@ A type of DoS attack that is caused when a hacker pings a system by sending it a
 Pinging a vulnerable network server with an oversized ICMP packet will overload the system and cause it to crash. 
 Think of this like dropping a rock on a small anthill. Each individual ant can carry a certain amount of weight while transporting food to and from the anthill. But if a large rock is dropped on the anthill, then many ants will be crushed, and the colony is unable to function until it rebuilds its operations elsewhere.
 
+Network protocol analyzer
+Sometimes called a packet sniffer or a packet analyzer
+A tool designed to capture and analyze data traffic within a network. 
+They are commonly used as investigative tools to monitor networks and identify suspicious activity. There are a wide variety of network protocol analyzers available, but some of the most common analyzers include:
+Wireshark
+tcpdump
+SolarWinds NetFlow Traffic Analyzer
+ManageEngine OpManager
+Azure Network Watcher
 
+Tcpdump
+A command-line network protocol analyzer. 
+It is popular, lightweight–meaning it uses little memory and has a low CPU usage–and uses the open-source libpcap library.
+ tcpdump is text based, meaning all commands in tcpdump are executed in the terminal. 
+It provides a brief packet analysis and converts key information about network traffic into formats easily read by humans. 
+It prints information about each packet directly into your terminal.
+ tcpdump also displays the source IP address, destination IP addresses, and the port numbers being used in the communications. 
+It prints the output of the command as the sniffed packets in the command line, and optionally to a log file, after a command is executed. The output of a packet capture contains many pieces of important information about the network traffic. 
+
+Some information you receive from a packet capture includes: 
+Timestamp
+The output begins with the timestamp, formatted as hours, minutes, seconds, and fractions of a second.  
+
+Source IP
+The packet’s origin is provided by its source IP address.
+
+Source port
+This port number is where the packet originated.
+
+Destination IP
+The destination IP address is where the packet is being transmitted.
+
+Destination port 
+This port number is where the packet is being transmitted.
+
+Common uses of network protocol analyzers:
+Used to capture and view network communications and to collect statistics about the network, such as troubleshooting network performance issues.
+
+Establish a baseline for network traffic patterns and network utilization metrics.
+
+Detect and identify malicious traffic
+
+Create customized alerts to send the right notifications when network issues or security threats arise.
+
+Locate unauthorized instant messaging (IM), traffic, or wireless access points.
+
+Can also be used by attackers to gain information about a specific network. For example, attackers can capture data packets that contain sensitive information, such as account usernames and passwords
