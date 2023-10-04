@@ -691,3 +691,54 @@ Create customized alerts to send the right notifications when network issues or 
 Locate unauthorized instant messaging (IM), traffic, or wireless access points.
 
 Can also be used by attackers to gain information about a specific network. For example, attackers can capture data packets that contain sensitive information, such as account usernames and passwords
+
+Packet sniffing 
+Practice of using software tools to observe data as it moves across a network. 
+As a security analyst, you may use packet sniffing to analyze and capture packets when investigating ongoing incidents or debugging network issues.
+Packet sniffing can be passive or active.
+Ways to prevent malicious packet sniffing
+Use a VPN
+Make sure the website uses HTTPS
+Avoid using unprotected WIFI if you don't have a VPN set up
+
+Passive packet sniffing 
+Type of attack where data packets are read in transit.
+
+Active packet sniffing 
+Type of attack where data packets are manipulated in transit. This may include injecting internet protocols to redirect the packets to an unintended port or changing the information the packet contains.
+
+IP spoofing
+Network attack is performed when an attacker changes the source IP of a data packet to impersonate an authorized system and gain access to a network
+In this kind of attack, the hacker is pretending to be someone they are not so they can communicate over the network with the target computer and get past firewall rules that may prevent outside traffic. 
+
+Some common IP spoofing attacks are:
+
+On-path attacks
+Sometimes referred to as a meddler-in-the middle attack 
+An attack where the malicious actor places themselves in the middle of an authorized connection and intercepts or alters the data in transit. 
+On-path attackers gain access to the network and put themselves between two devices, like a web browser and a web server. 
+Then they sniff the packet information to learn the IP and MAC addresses of the devices that are communicating with each other. 
+After they have this information, they can pretend to be either of these devices.
+
+Replay attacks
+A network attack performed when a malicious actor intercepts a data packet in transit and delays it or repeats it at another time. 
+A delayed packet can cause connection issues between target computers, or a malicious actor may take a network transmission that was sent by an authorized user and repeat it at a later time to impersonate the authorized user.
+
+Smurf attacks
+A combination of a DDoS attack and an IP spoofing attack. 
+The attacker sniffs an authorized user's IP address and floods it with packets. 
+This overwhelms the target computer and can bring down a server or the entire network.
+
+How to protect the network from this kind of IP Spoofing
+
+Encryption 
+should always be implemented so that the data in your network transfers can't be read by malicious actors.
+
+Firewall Configuration
+IP spoofing makes it seem like the malicious actor is an authorized user by changing the sender's address of the data packet to match the target network's address.
+So if a firewall receives a data packet from the internet where the sender's IP address is the same as the private network, then the firewall will deny the transmission since all the devices with that IP address should already be on the local network. 
+You can make sure that your firewalls are configured correctly by creating a rule to reject all incoming traffic that has the same IP address as the local network.
+
+Network Interface Card (NIC) 
+A piece of hardware that connects the device to a network. 
+The NIC reads the data transmission, and if it contains the device’s MAC address, it accepts the packet and sends it to the device to process the information based on the protocol. 
