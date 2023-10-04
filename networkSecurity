@@ -308,7 +308,7 @@ They include: SNMP, ICMP
 Security Protocols
 Ensures that data is sent and received securely across a network
 Use encryption to protect data in transit
-Includes HTTPS, STTP
+Includes HTTPS, SFTP
 
 Transmission Control Protocol (TCP)
 An internet communication protocol that allows two devices to form a connection and stream data
@@ -326,9 +326,9 @@ Domain Name System, or DNS
 A network protocol that translate internet domain names into IP addresses. 
 The DNS protocol sends the domain name and the web address to a DNS server that retrieves the IP address of the website you were trying to access
 
-Simple Network Managment Protocol (SNMP)
+Simple Network Management Protocol (SNMP)
 Used for monitoring and managing devices on a network
-Can be used to reset a passwork on a network devices or change its baseline configuration. 
+Can be used to reset a password on a network devices or change its baseline configuration. 
 Can also send requests to network devices for a report on how much of the network’s bandwidth is being used up. 
 Occurs in the Application layer 
 Internet Conrol Message Protocol (ICMP)
@@ -341,7 +341,7 @@ Hypertext Transfer Protocol Secure, or HTTPS
 A network protocol that provides a secure method of communication between client and website servers. It allows your web browser to securely send a request for a webpage to the Yummy Recipes For Me server and receive a webpage as a response.
 
 Secure File Transfer Protocol (SFTP)
-Used to securely transfer files from one device to another onver a network 
+Used to securely transfer files from one device to another over a unsecured network 
 Uses Secure Shell (SSH), typically though TCP port 22
 SSH uses Advanced Encryption Standard (AES) and other types of encryption to ensure that unintended recipients cannot intercept the transmissions. 
 Occurs at the Application layer
@@ -592,4 +592,54 @@ Another VPN protocol that may be used to set up VPNs. Most VPN providers use IPS
 Since IPSec is one of the earlier VPN protocols, many operating systems support IPSec from VPN providers.
 Can be used to create site-to-site connections 
 Some clients may prefer IPSec due to its longer history of use, extensive security testing, and widespread adoption. However, others may prefer WireGuard because of its potential for better performance and simpler configuration.
+
+
+
+Network Interception Attacks 
+Work by intercepting network traffic and stealing valuable information or interfering with the transmission in some way.
+In addition to seeing information that they are not entitled to, malicious actors can also intercept network traffic and alter it. These attacks can cause damage to an organization’s network by inserting malicious code modifications or altering the message and interrupting network operations. 
+For example, an attacker can intercept a bank transfer and change the account receiving the funds to one that the attacker controls.
+
+Packet Sniffing
+Use hardware or software tools to capture and inspect data in transit
+
+Backdoor Attack
+Backdoors are weaknesses intentionally left by programmers or system and network administrators that bypass normal access control mechanisms. 
+Backdoors are intended to help programmers conduct troubleshooting or administrative tasks. However, backdoors can also be installed by attackers after they’ve compromised an organization to ensure they have persistent access.
+Once the hacker has entered an insecure network through a backdoor, they can cause extensive damage: installing malware, performing a denial of service (DoS) attack, stealing private information or changing other security settings that leaves the system vulnerable to other attacks
+
+Possible impacts on an organization
+Financial → due to interruption in operations
+Reputation → loose customer trust 
+Public safety → e.g. may lose power if a power grid is attacked
+
+Denial of Servier(or DoS) attack 
+An attack that targets a network or server and floods it with network traffic.
+The objective of a denial of service attack, or a DoS attack, is to disrupt normal business operations by overloading an organization's network. 
+The goal of the attack is to send so much information to a network device that it crashes or is unable to respond to legitimate users. This means that the organization won't be able to conduct their normal business operations, which can cost them money and time
+A network crash can also leave them vulnerable to other security threats and attacks.
+
+Distributed Denial of Service Attack (or DDoS) 
+Kind of DoS attack that uses multiple devices or servers in different locations to flood the target network with unwanted traffic. 
+Use of numerous devices makes it more likely that the total amount of traffic sent will overwhelm the target server.
+
+Types of DoS Attacks
+
+SYN flood attack
+Attack that simulates the TCP connection and floods the server with SYN packets
+Malicious actors can take advantage of the protocol by flooding a server with SYN packet requests for the first part of the handshake. But if the number of SYN requests is larger than the number of available ports on the server, then the server will be overwhelmed and become unable to function.
+Takes advantage of communication protocols by sending an overwhelming number of requests
+
+Internet Control Message Protocol (ICMP) Attack
+ICMP is an internet protocol used by devices to tell each other about data transmission errors across the network.
+Think of ICMP like a request for a status update from a device. 
+Think of this like the ICMP request checking in with the device to make sure that all is well.
+ICMP attack is performed by an attacker repeatedly sending ICMP packets to a network server. This forces the server to send an ICMP packet. This eventually uses up all the bandwidth for incoming and outgoing traffic and causes the server to crash.
+Takes advantage of communication protocols by sending an overwhelming number of requests
+
+Ping of Death Attack 
+A type of DoS attack that is caused when a hacker pings a system by sending it an oversized ICMP packet that is bigger than 64 kilobytes, the maximum size for a correctly formed ICMP packet
+Pinging a vulnerable network server with an oversized ICMP packet will overload the system and cause it to crash. 
+Think of this like dropping a rock on a small anthill. Each individual ant can carry a certain amount of weight while transporting food to and from the anthill. But if a large rock is dropped on the anthill, then many ants will be crushed, and the colony is unable to function until it rebuilds its operations elsewhere.
+
 
