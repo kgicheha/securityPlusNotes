@@ -868,3 +868,55 @@ Sandbox
 A type of testing environment that allows you to execute software or programs separate from your network.
 They are commonly used for testing patches, identifying and addressing bugs, or detecting cybersecurity vulnerabilities. 
 Sandboxes can also be used to evaluate suspicious software, evaluate files containing malicious code, and simulate attack scenarios. 
+
+
+
+
+
+
+
+Network Hardening
+Focuses on network-related security hardening, like:
+Port filtering
+Network access privileges
+Encryption over networks
+
+Network Hardening that are regularly performed:
+Firewall rules and maintenance
+Network log Analysis
+Patch updates
+Server backups
+
+Network Hardening that are performed once:
+Port filtering on firewalls
+Network access privileges
+Encryption for communication
+Network Segmentation to create isolated subnets for different departments
+Only authorized users are given access to the subnets that are required for their role
+
+Network log Analysis
+Process of examining network logs to identify events of interest. 
+ecurity teams use a log analyzer tool or a security information and event management tool, also known as a SIEM, to conduct network log analysis.
+
+SIEM tool
+An application that collects and analyzes log data to monitor critical activities in an organization. 
+It gathers security data from a network and presents that data on a single dashboard. 
+The dashboard interface is sometimes called a single pane of glass. 
+A SIEM helps analysts to inspect, analyze, and react to security events across the network based on their priority. 
+Reports from the SIEM provide a list of new or ongoing network vulnerabilities and list them on a scale of priority from high to low, where high priority vulnerabilities have a much shorter deadline for mitigation.
+
+Port filtering
+A firewall function that blocks or allows certain number to limit unwanted communication
+Only ports that are needed are the ones that are allowed
+This protects from port vulnerabilities 
+
+
+
+
+Firewall 
+Allow or block traffic based on a set of rules
+Each system should have its own firewall, regardless of the network firewall
+
+
+
+
