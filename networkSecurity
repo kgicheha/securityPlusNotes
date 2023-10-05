@@ -742,3 +742,129 @@ You can make sure that your firewalls are configured correctly by creating a rul
 Network Interface Card (NIC) 
 A piece of hardware that connects the device to a network. 
 The NIC reads the data transmission, and if it contains the device’s MAC address, it accepts the packet and sends it to the device to process the information based on the protocol. 
+
+
+
+
+
+
+
+
+
+
+
+
+Attack Surface
+Refers too all the potential vulnerabilities a threat actor could potentiall exploit in a system. 
+
+Security Hardening
+The process of strengthening a system to reduce its vulnerability and attack surface. 
+All the potential vulnerabilities that a threat actor could exploit are referred to as a system's attack surface.
+As part of security hardening, security analysts perform regular maintenance procedures to keep network devices and systems functioning securely and optimally. 
+Security hardening can be conducted on any device or system that can be compromised, such as hardware, operating systems, applications, computer networks, and databases
+
+Some common types of hardening procedures include:
+Software updates, also called patches
+
+Device application configuration changes. 
+An example of a security configuration change would be requiring longer passwords or more frequent password changes. 
+This makes it harder for a malicious actor to gain login credentials. 
+An example of a configuration check is updating the encryption standards for data that is stored in a database. 
+Keeping encryption up to date makes it harder for malicious actors to access the database.
+
+Removing or disabling unused applications and services, disabling unused ports, and reducing access permissions across devices and network
+Minimizing the number of applications, devices, ports, and access permissions makes network and device monitoring more efficient and reduces the overall attack surface, which is one of the best ways to secure an organization
+
+Conduct regular penetration testing
+A penetration test, also called a pen test, is a simulated attack that helps identify vulnerabilities in a system, network, website, application, and process. 
+Penetration testers document their findings in a report.
+Depending on where the test fails, security teams can determine the type of security vulnerabilities that require fixing. 
+Organizations can then review these vulnerabilities and come up with a plan to fix them.
+
+
+
+
+
+
+Operating System (OS)
+The interface between computer hardware and the user
+Acts as an intermediary between software applications and the computer hardware.
+It's important to secure the OS in each system because one insecure OS can lead to a whole network being compromised.
+
+OS Hardening 
+A set of procedures that maintains OS security and improves it. 
+Security measures like access privileges and password policies frequently undergo regular security checks as part of OS hardening
+
+Operating System (OS) Hardening  Tasks:
+Keeping up-to-date list of devices and authorized users
+
+Patch installation, also known as patch updates
+Updates that addresses security vulnerabilities within a program or product.
+With patch updates, the OS should be upgraded to its latest software version. Sometimes patches are released to fix a security vulnerability in the software. As soon as OS vendors publish a patch and the vulnerability fix, malicious actors know exactly where the vulnerability is in systems running the out-of-date OS.
+The newly updated OS should be added to the baseline configuration, also called the baseline image.
+
+Hardware and software disposal
+This ensures that all old hardware is properly wiped and disposed of. 
+It's also a good idea to delete any unused software applications since some popular programming languages have known vulnerabilities
+Removing unused software makes sure that there aren't any unnecessary vulnerabilities connected with the programs that the software uses.
+
+ Implementing a strong password policy. 
+Strong password policies require that passwords follow specific rules. 
+For example, an organization may set a password policy that requires a minimum of eight characters, a capital letter, a number, and a symbol. 
+To discourage malicious actors, a password policy usually states that a user will lose access to the network after entering the wrong password a certain number of times in a row. Some systems also require multi-factor authentication, or MFA. 
+
+Baseline Configuration 
+A documented set of specifications within a system that is used as a basis for future builds, releases, and updates
+For example, a baseline may contain a firewall rule with a list of allowed and disallowed network ports. If a security team suspects unusual activity affecting the OS, they can compare the current configuration to the baseline and make sure that nothing has been changed.
+
+Multi-factor authentication, or MFA
+A security measure which requires a user to verify their identity in two or more ways to access a system or network. 
+
+Categories of multi-factor identification: 
+Something you know, like a password, 
+Something you have like an ID card 
+Something unique about you, like your fingerprint.
+
+Brute Force Attack
+Trial-and-error process of discovering private information. 
+
+Types of brute force attacks include:
+
+Simple brute force attacks
+When attackers try to guess a user's login credentials, it’s considered a simple brute force attack. 
+They might do this by entering any combination of usernames and passwords that they can think of until they find the one that works.
+
+Dictionary attacks use a similar technique 
+Attackers use a list of commonly used passwords and stolen credentials from previous breaches to access a system. 
+These are called “dictionary” attacks because attackers originally used a list of words from the dictionary to guess the passwords, before complex password rules became a common security practice. 
+
+Some common measures used  to prevent brute force attacks and similar attacks from occurring include: 
+
+Salting and hashing
+Hashing converts information into a unique value that can then be used to determine its integrity. It is a one-way function, meaning it is impossible to decrypt and obtain the original text. 
+Salting adds random characters to hashed passwords. This increases the length and complexity of hash values, making them more secure.
+
+Multi-factor authentication (MFA) and two-factor authentication (2FA)
+MFA is a security measure which requires a user to verify their identity in two or more ways to access a system or network.
+
+CAPTCHA and reCAPTCHA
+CAPTCHA stands for Completely Automated Public Turing test to tell Computers and Humans Apart. It asks users to complete a simple test that proves they are human. 
+This helps prevent software from trying to brute force a password. 
+reCAPTCHA is a free CAPTCHA service from Google that helps protect websites from bots and malicious software.
+
+Password policies
+Organizations use password policies to standardize good password practices throughout the business. 
+Policies can include guidelines on how complex a password should be, how often users need to update passwords, and if there are limits to how many times a user can attempt to log in before their account is suspended.
+
+Virtual machines (VMs) 
+Software versions of physical computers
+VMs provide an additional layer of security for an organization because they can be used to run code in an isolated environment, preventing malicious code from affecting the rest of the computer or system. 
+VMs are useful when investigating potentially infected machines or running malware in a constrained environment. 
+
+
+
+
+Sandbox 
+A type of testing environment that allows you to execute software or programs separate from your network.
+They are commonly used for testing patches, identifying and addressing bugs, or detecting cybersecurity vulnerabilities. 
+Sandboxes can also be used to evaluate suspicious software, evaluate files containing malicious code, and simulate attack scenarios. 
