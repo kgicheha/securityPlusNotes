@@ -904,6 +904,7 @@ It gathers security data from a network and presents that data on a single dashb
 The dashboard interface is sometimes called a single pane of glass. 
 A SIEM helps analysts to inspect, analyze, and react to security events across the network based on their priority. 
 Reports from the SIEM provide a list of new or ongoing network vulnerabilities and list them on a scale of priority from high to low, where high priority vulnerabilities have a much shorter deadline for mitigation.
+SIEM tools additionally analyze network log data sourced from IDSs, IPSs, firewalls, VPNs, proxies, and DNS logs.
 
 Port filtering
 A firewall function that blocks or allows certain number to limit unwanted communication
@@ -919,4 +920,124 @@ Each system should have its own firewall, regardless of the network firewall
 
 
 
+Intrusion Detection System (IDS)
+An application that monitors system activity and alerts on possible intrusions. An IDS alerts administrators based on the signature of malicious traffic.
+The limitations to IDS systems are that they can only scan for known attacks or obvious anomalies. New and sophisticated attacks might not be caught. 
+The other limitation is that the IDS doesn’t actually stop the incoming traffic if it detects something awry. It’s up to the network administrator to catch the malicious activity before it does anything damaging to the network. 
+The IDS is placed behind the firewall and before entering the LAN, which allows the IDS to analyze data streams after network traffic that is disallowed by the firewall has been filtered out. This is done to reduce noise in IDS alerts, also referred to as false positives.
 
+
+Intrusion Prevention Systems (IPS)
+An application that monitors system activity for intrusive activity and takes action to stop the activity
+An IPS searches for signatures of known attacks and data anomalies.
+ An IPS reports the anomaly to security analysts and blocks a specific sender or drops network packets that seem suspect. 
+If the IPS breaks, the connection between the private network and the internet breaks.
+Another limitation of IPS is the possibility of false positives, which can result in legitimate traffic getting dropped.
+
+
+
+ 
+
+Devices/ Tools
+Advantages
+Disadvantages
+Firewall
+A firewall allows or blocks traffic based on a set of rules.
+A firewall is only able to filter packets based on information provided in the header of the packets. 
+Intrusion Detection System (IDS)
+An IDS detects and alerts admins about possible intrusions, attacks, and other malicious traffic.
+An IDS can only scan for known attacks or obvious anomalies; new and sophisticated attacks might not be caught. It doesn’t actually stop the incoming traffic.
+Intrusion Prevention System (IPS)
+An IPS monitors system activity for intrusions and anomalies and takes action to stop them.
+An IPS is an inline appliance. If it fails, the connection between the private network and the internet breaks. It might detect false positives and block legitimate traffic.
+Security Information and Event Management (SIEM)
+A SIEM tool collects and analyzes log data from multiple network machines. It aggregates security events for monitoring in a central dashboard.
+A SIEM tool only reports on possible security issues. It does not take any actions to stop or prevent suspicious events.
+
+
+
+
+
+Cloud Network
+A collection of severs or computers that stores resources and data in remote data centers that can be accessed via the internet
+One distinction between cloud network hardening and traditional network hardening is the use of a server baseline image for all server instances stored in the cloud. This allows you to compare data in the cloud servers to the baseline image to make sure there haven't been any unverified changes.
+Similar to OS hardening, data and applications on a cloud network are kept separate depending on their service category. 
+For example, older applications should be kept separate from newer applications, and software that deals with internal functions should be kept separate from front-end applications seen by users.
+
+Cloud Computing
+A model for allowing convenient and on-demand network access to a shared pool of configurable computing resources.
+
+Identity access management (IAM) 
+A collection of processes and technologies that helps organizations manage digital identities in their environment. 
+This service also authorizes how users can use different cloud resources. 
+A common problem that organizations face when using the cloud is the loose configuration of cloud user roles. 
+An improperly configured user role increases risk by allowing unauthorized users to have access to critical cloud operations. 
+
+Configuration
+The number of available cloud services adds complexity to the network. Each service must be carefully configured to meet security and compliance requirements.
+ If network administrators and architects are not meticulous in correctly configuring the organization’s cloud services, they could leave the network open to compromise. 
+Misconfigured cloud services are a common source of cloud security issues. 
+
+Zero day attack
+An exploit that was previously unknown.
+Zero-day attacks are an important security consideration for organizations using cloud or traditional on-premise network solutions. 
+
+Shared Responsibility Model 
+States that the cloud service provider must take responsibility for security involving the cloud infrastructure, including physical data centers, hypervisors, and host operating systems. 
+The company using the cloud service is responsible for the assets and processes that they store or operate in the cloud.
+One example of this is cloud applications and configurations. The cloud service provider takes responsibility for securing the cloud, but it is the organization’s responsibility to ensure that services are configured properly according to the security requirements of their organization. 
+
+
+
+
+Hypervisor 
+Abstracts the host’s hardware from the operating software environment. 
+Vulnerabilities in hypervisors or misconfigurations can lead to virtual machine escapes (VM escapes). A VM escape is an exploit where a malicious actor gains access to the primary hypervisor, potentially the host computer and other VMs.
+
+There are two types of hypervisors:
+One that runs on the hardware of the host computer
+An example of a type one hypervisor is VMware®'s EXS
+Cloud service providers (CSPs) commonly use this 
+
+One that operates on the software of the host computer. 
+An example of a type two hypervisor is VirtualBox
+
+Baseline
+A fixed reference point. 
+This reference point can be used to compare changes made to a cloud environment.
+Baselining for cloud networks and operations cover how the cloud environment is configured and set up. 
+Examples of establishing a baseline in a cloud environment include:
+Restricting access to the admin portal of the cloud environment
+Enabling password management
+Enabling file encryption
+Enabling threat detection services for SQL databases.
+
+Baseline configuration (baseline image)
+A documented set of specifications within a system that is used as a basis for future builds, releases, and updates
+
+Cryptography
+Uses encryption and secure key management systems to provide data integrity and confidentiality. 
+Cryptographic encryption is one of the key ways to secure sensitive data and information in the cloud.
+
+​​Encryption 
+The process of scrambling information into ciphertext, which is not readable to anyone without the encryption key. 
+
+Cryptographic Erasure 
+A method of erasing the encryption key for the encrypted data. 
+When destroying data in the cloud, more traditional methods of data destruction are not as effective. 
+
+
+
+
+
+Crypto-shredding 
+A newer technique where the cryptographic keys used for decrypting the data are destroyed. 
+This makes the data undecipherable and prevents anyone from decrypting the data. When crypto-shredding, all copies of the key need to be destroyed so no one has any opportunity to access the data in the future.
+
+The measures you can take to further protect your data when using cloud applications:
+
+Trusted platform module (TPM) 
+TPM is a computer chip that can securely store passwords, certificates, and encryption keys.
+
+Cloud hardware security module (CloudHSM)
+CloudHSM is a computing device that provides secure storage for cryptographic keys and processes cryptographic operations, such as encryption and decryption.
