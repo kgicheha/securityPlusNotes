@@ -97,3 +97,36 @@ A CLI is more flexible and more powerful than a GUI
 Gives you more flexibility. 
 A CLI can accept multiple requests at one time, it’s more powerful when you need to perform multiple tasks efficiently. 
 For security analysts, using the Linux CLI is helpful because it records a history file of all the commands and actions in the CLI. If you were using a GUI, your actions are not necessarily saved in a history file.
+
+Linux
+An open-source operating system
+
+How security analysts use Linux:
+To examine different types of logs to identify what is going on in a system
+To use digital forensic tools to investigate what happened following an event
+To verify access and authorization in an identity and access management system
+
+Components of Linux
+User 
+The user is the person interacting with the computer.
+Linux is a multi-user system. This means that more than one user can use the system's resources at the same time.
+
+Applications
+ a program that performs a specific task
+
+Shell
+How you will communicate with the system. 
+The shell is a command line interpreter. It processes commands and outputs the results. This might sound familiar. 
+	 Think of the shell as a CLI.
+
+Filesystem Hierarchy Standard, or FHS 
+It's the component of the Linux OS that organizes data
+A directory is a file that organizes where other files are stored. Directories are sometimes called “folders,” and they can contain files or other directories.
+Kernel 
+A component of the Linux OS that manages processes and memory. 
+The kernel communicates with the hardware to execute the commands sent by the shell. 
+The kernel uses drivers to enable applications to execute tasks. 
+The Linux kernel helps ensure that the system allocates resources more efficiently and makes the system work faster.
+
+Hardware
+The physical components of a computer
