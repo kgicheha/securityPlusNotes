@@ -124,9 +124,53 @@ It's the component of the Linux OS that organizes data
 A directory is a file that organizes where other files are stored. Directories are sometimes called “folders,” and they can contain files or other directories.
 Kernel 
 A component of the Linux OS that manages processes and memory. 
+The most important component of the Linux OS
 The kernel communicates with the hardware to execute the commands sent by the shell. 
 The kernel uses drivers to enable applications to execute tasks. 
 The Linux kernel helps ensure that the system allocates resources more efficiently and makes the system work faster.
 
 Hardware
 The physical components of a computer
+
+Distributions
+The different versions of Linux
+Includes the Linux kernel, utilities, a package management system, and an installer.
+
+The type of components that may differ from one Linux distribution to another:
+Their parent distributions
+The user interfaces
+Their pre-installed programs
+
+Kali Linux
+This open-source distro was made specifically with penetration testing and digital forensics in mind.
+It's important to note that KALI LINUX™ should be used on a virtual machine. This prevents damage to your system in the event its tools are used improperly. 
+An additional benefit is that using a virtual machine gives you the ability to revert to a previous state.
+a useful distribution for security professionals who are involved in digital forensic work. 
+Derived from Debian distribution. 
+
+Key Kali Linux security tools:
+ tcpdump 
+A command-line packet analyzer.
+	It's used to capture network traffic.
+
+Wireshark
+It has a graphical user interface that can be used to analyze live and captured network traffic.
+
+Autopsy 
+A forensic tool used to analyze hard drives and smartphones.
+Penetration test 
+A simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and processes.
+
+Penetration Testing Tools in Kali Linux
+Metasploit
+Can be used to look for and exploit vulnerabilities on machines. 
+
+Burp Suite
+A tool that helps to test for weaknesses in web applications
+
+John the Ripper 
+A tool used to guess passwords
+
+Digital Forensics
+The process of collecting and analyzing data to determine what has happened after an attack
+For example, you might take an investigative look at data related to network activity.
