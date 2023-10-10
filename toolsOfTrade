@@ -1,1 +1,84 @@
+Tools of the Trade: Linux & SQL
+
+Hardware 
+The physical components of a computer.
+
+Operating System (OS)
+The interface between computer hardware and the user
+Responsible for making the computer run as efficiently as possible and easy to use. 
+They help humans and computers communicate with each other	
+The OS does this by taking care of all the messy details related to controlling, the computer's hardware, so you don't have to.
+Computers communicate in a language called binary, which consists of 0s and 1s. 
+The OS provides an interface to bridge this communication gap between the user and the computer, allowing you to interact with the computer in complex ways.
+
+For example, as a security analyst, you may be responsible for configuring and maintaining the security of a system by managing access.
+You may also be responsible for managing and configuring firewalls, setting security policies, enabling virus protection, and performing auditing, accounting, and logging to detect unusual behavior
+
+The OS handles resource and memory management to ensure the limited capacity of the computer system is used where it's needed most. 
+For example, if a computer is running slowly, an analyst might discover it's allocating resources to malware.
+
+Types of Operating Systems:
+Windows
+macOS
+Linux
+ChromeOS
+Android
+ iOS
+
+Legacy operating system
+An operating system that is outdated but still being used. 
+Some organizations continue using legacy operating systems because the software they rely on is incompatible with newer operating systems.
+Legacy operating systems can be vulnerable to security issues because they’re no longer supported or updated. This means that legacy operating systems might be vulnerable to new threats. 
+
+
+Basic Input/Output System (BIOS) 
+A microchip that contains loading instructions for the computer and is prevalent in older systems
+BIOS
+Booting the computer means that a special microchip called a BIOS is activated
+On many computers built after 2007, the chip was replaced by the UEFI. 
+Often, the BIOS is not scanned by the antivirus software, so it can be vulnerable to malware infection.
+
+Unified Extensible Firmware Interface (UEFI)
+A microchip that contains loading instructions for the computer and replaces BIOS on more modern systems.
+
+Both BIOS and UEFI contain booting instructions that are responsible for loading a special program called the bootloader
+
+Bootloader 
+Responsible for starting the operating system.
+
+An application
+A program that performs a specific task
+The application sends your request to the operating system. 
+From there, the operating system interprets this request and directs it to the appropriate component of the computer's hardware.
+
+Completing a task
+
+
+Virtual machine (VM)
+A virtual version of a physical computer. Virtual machines are one example of virtualization. 
+Virtual machines can be managed with a software called a hypervisor.
+
+Hypervisors 
+Help users manage multiple virtual machines and connect the virtual and physical hardware. 
+Hypervisors also help with allocating the shared resources of the physical host machine to one or more virtual machines.
+
+Virtualization 
+Process of using software to create virtual representations of various physical machines. 
+Virtual systems don’t use dedicated physical hardware. 
+Instead, they use software-defined versions of the physical hardware. 
+This means that a single virtual machine has a virtual CPU, virtual storage, and other virtual hardware. 
+Virtual systems are just code.
+
+
+The benefits of virtual machines
+Provides an isolated environment, or a sandbox, on the physical host machine.
+Although using virtual machines is useful when investigating potentially infected machines or running malware in a constrained environment, there are still some risks. 
+For example, a malicious program can escape virtualization and access the host machine. This is why you should never completely trust virtualized systems.
+
+an efficient and convenient way to perform security tasks. 
+You can open multiple virtual machines at once and switch easily between them. This allows you to streamline security tasks, such as testing and exploring various applications.
+Random Access Memory (RAM) 
+A hardware component used for short-term memory.
+
+
 
