@@ -174,3 +174,63 @@ A tool used to guess passwords
 Digital Forensics
 The process of collecting and analyzing data to determine what has happened after an attack
 For example, you might take an investigative look at data related to network activity.
+
+Ubuntu
+An open-source, user-friendly distribution that is widely used in security and other industries.
+It has both a command-line interface (CLI) and a graphical user interface (GUI). 
+Ubuntu is also Debian-derived 
+
+Parrot
+An open-source distribution that is commonly used for security. Similar to KALI LINUX ™, Parrot comes with pre-installed tools related to penetration testing and digital forensics. Like both KALI LINUX ™ and Ubuntu, it is based on Debian.
+Parrot is also considered to be a user-friendly Linux distribution. This is because it has a GUI that many find easy to navigate
+
+Red Hat Enterprise Linux 
+A subscription-based distribution of Linux built for enterprise use. 
+
+CentOS 
+An open-source distribution that is closely related to Red Hat. It uses source code published by Red Hat to provide a similar platform. 
+
+Package 
+A piece of software that can be combined with other packages to form an application.
+Contains the files necessary for an application to be installed
+
+Package manager 
+A tool that helps users install, manage, and remove packages or applications
+It’s important to use the most recent version of a package when possible. The most recent version has the most up-to-date bug fixes and security patches. These help keep your system more secure.
+
+Advanced Package Tool (APT) 
+APT is a tool used with Debian-derived distributions. It is run from the command-line interface to manage, search, and install packages.
+
+Yellowdog Updater Modified (YUM)
+YUM is a tool used with Red Hat-derived distributions.
+It is run from the command-line interface to manage, search, and install packages. YUM works with .rpm files.
+
+
+
+
+Shell
+The command-line interpreter
+That means it helps you communicate with the operating system through the command line
+The shell communicates with the kernel to execute commands.
+
+Different Type of Shells
+Bourne-Again Shell (bash)
+C Shell (csh)
+Korn Shell (ksh)
+Enhanced C shell (tcsh)
+Z Shell (zsh)
+
+Bash Shell
+The default shell in most Linux distributions. It’s considered a user-friendly shell. You can use bash for basic Linux commands as well as larger projects.
+
+Standard Input 
+Consists of information received by the OS via the command line.
+
+String data 
+Data consisting of an ordered sequence of characters.
+
+Standard Output 
+The information returned by the OS through the shell.
+
+Standard Error 
+Contains error messages returned by the OS through the shell.
