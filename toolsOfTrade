@@ -285,4 +285,60 @@ Return the username of the current user
 less
 Returns the content of a file one page at a time. 
 
-Grep
+grep
+Searches a specified file and returns all lines in the file containing a specified string
+grep [string] [file name]
+
+| (piping)
+Sends the standard output of one command as standard input to another command for further processing. 
+ls /home/analyst/reports | grep users
+	This will return all the files in the reports directory that contain the string ”users”
+
+find
+Searches for directories and files that meets specified criteria
+find [directory] -iname [“*logs”]
+
+
+iname and iname
+Used with find command to find file or directory names that contain a specific string
+-name is case sensitive
+-iname is not case sensitive
+
+mtime
+Used with the  find command to find files or directories last modified with a certain time frame
+find /home/analyst/projects -mtime -3
+This returns all files and directories in the projects directory that have been modified within the past three days. 
+
+mkdir
+Creates new directory
+mkdir [directory name]
+
+rmdir
+Removes, or deletes a directory
+rmdir [directory name]
+
+touch 
+Creates a new file
+touch [file name]
+
+rm
+Removes or delete a file
+rm [file name]
+
+mv
+Moves a file or directory to a new location
+mv [file name] [the directory where you want to move the file to]
+
+cp
+Copies a file or directory into a new location
+cp [file name] [the directory where you want to move the file to]
+
+nano
+Used to edit files
+nano [file name you want to edit]
+
+Permissions
+The type of access granted for a file or directory
+
+Authorization
+The concept of granting access to specific recource in a system
