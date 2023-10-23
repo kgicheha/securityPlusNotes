@@ -350,6 +350,19 @@ chmod
 Changes permissions on files and directories
 chmod g+w, o-r [file name] → group add write, other remove read on the specified file
 
+sudo
+Temporality grands elevated permissions to specific users
+Stands for super-user-do
+
+useradd
+Adds a user to the systems
+
+userdel
+Deletes a user from the system
+
+usermod
+Modifies existing user accounts
+sudo usermod -g executive fgargia → would change garcia’s primary group to the executive group
 
 Permissions
 The type of access granted for a file or directory
@@ -380,5 +393,10 @@ If one of these permissions was missing, there would be a hyphen instead of the 
 Options
 Modify the behavior of the command
 
-Changing Permissions
+Root user (or superuser)
+A user with elevated privileges to modify the system
 
+Problems with logging in as root
+Security Risks → Most powerful account
+Irreversible mistakes
+Accountability → no way to track who ran a command
