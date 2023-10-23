@@ -337,8 +337,48 @@ nano
 Used to edit files
 nano [file name you want to edit]
 
+ls -l
+Displays permissions to files and directories
+
+ls -a
+Displays hidden files 
+
+ls -la
+Displays permissions to files and directories, including hidden files
+
+chmod
+Changes permissions on files and directories
+chmod g+w, o-r [file name] → group add write, other remove read on the specified file
+
+
 Permissions
 The type of access granted for a file or directory
 
 Authorization
-The concept of granting access to specific recource in a system
+The concept of granting access to specific resources in a system
+
+Permissions in Linux
+Read
+Write
+Execute
+Types of owners
+User → owner of the file → u
+Group → consists of several users → g
+Other → all other users in a system → o
+
+Linux permission strings
+drwxrwxrwx → full permissions 
+d represents directory
+r represents read
+w represents write
+x represents execute
+The first rwx shows that the users’ owner permission
+The second rwx shows the group-owner permission
+The third rwx shows the other owner-type permission
+If one of these permissions was missing, there would be a hyphen instead of the letter. 
+
+Options
+Modify the behavior of the command
+
+Changing Permissions
+
