@@ -417,3 +417,73 @@ Problems with logging in as root
 Security Risks → Most powerful account
 Irreversible mistakes
 Accountability → no way to track who ran a command
+
+
+
+SQL
+Database
+An organized collection of information or data
+Can be accessed by multiple people simultaneously and can store massive amounts of data. 
+Can also perform complex tasks while accessing data.
+
+As a security analyst, you'll often need to access databases containing useful information. 
+For example, these could be databases containing information on login attempts, software and updates, or machines and their owners.
+
+Spreadsheets 
+Often designed for a single user or a small team to store less data.
+
+
+Relational database 
+A structured database containing tables that are related to each other.
+Each table contains fields of information.
+
+Primary key 
+Refers to a column where every row has a unique entry.
+The primary key must not have any duplicate values or any null or empty values. 
+The primary key allows us to uniquely identify every row in our table. 
+For the table of employees, employee_id is a primary key.
+
+
+Foreign key 
+A column in a table that is a primary key in another table. 
+Foreign keys, unlike primary keys, can have empty values and duplicates. 
+The foreign key allows us to connect two tables together. 
+
+SQL
+Stands for Structured Query Language. 
+SQL is a programming language used to create, interact with, and request information from a database.
+SQL can be used for data analytics. 
+As a security analyst, you can use SQL's filtering to find data to support security-related decisions and analyze when things may go wrong. 
+For instance, you can identify what machines haven't received the latest patch. This is important because patches are updates that help secure against attacks. 
+As another example, you can use SQL to determine the best time to update a machine based on when it's least used.
+
+Query
+A request for data from a database table or a combination of tables
+
+Log 
+A record of events that occur within an organization's systems. 
+As a security analyst, you might be tasked with reviewing logs for various reasons. 
+For example, some logs might contain details on machines used in a company, and as an analyst, you would need to find those machines that weren't configured properly. Other logs might describe the visitors to your website or web app and the tasks they perform.
+
+Basic SQL Queries
+
+SELECT
+Indicates which columns to return
+SELECT * → returns all columns from the specified table
+
+FROM 
+Indicates which tables to query
+
+ORDER BY
+Sequences the records by a query based on a specified column or columns
+Can be either ascending or descending order
+By default, the sequence will be in ascending order
+
+
+Syntax
+The rules that determine what is correctly structured in a computing language
+
+
+Example of SQL Query
+	SELECT employee_id, device_id
+	FROM employees;
