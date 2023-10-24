@@ -369,6 +369,18 @@ Changes ownership of a file or directory
 sudo chown fgarcia access.txt → changes user owner to garcia
 sudo chown :security access.txt → changes group owner to security 
 
+man
+Displays information on other commands and how they work
+Comes from the word manual
+
+whatis
+Displays a description of a command on a single line
+
+apropos
+Searches the manual page descriptions for a specified string
+
+
+
 Permissions
 The type of access granted for a file or directory
 
