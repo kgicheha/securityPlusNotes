@@ -479,11 +479,40 @@ Sequences the records by a query based on a specified column or columns
 Can be either ascending or descending order
 By default, the sequence will be in ascending order
 
+WHERE
+Indicates the condition for a filter
 
-Syntax
-The rules that determine what is correctly structured in a computing language
+LIKE
+Used with WHERE to search for a pattern in a column
+WHERE country LIKE ‘US%’ → return all rows that starts with ‘US’ in the country column
 
+BETWEEN
+Select values within a given range.
+AND
+Specifies that both conditions must be met simultaneously 
+
+OR
+Specifies that either condition can be met
+
+NOT
+Negates a condition
+Returns everything else that’s not the specified condition
 
 Example of SQL Query
 	SELECT employee_id, device_id
 	FROM employees;
+	WHERE country = “USA”
+
+Filtering 
+Selecting data that match certain criteria
+
+Data Types
+String Data
+	Consists of an ordered sequence of characters
+	These characters could be numbers, letters, or symbols.
+
+Numeric data 
+Consists of numbers, such as a count of log-in attempts. 
+
+Date and time data 
+Refers to data representing a date and/or time.
