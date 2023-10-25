@@ -498,6 +498,23 @@ NOT
 Negates a condition
 Returns everything else that’s not the specified condition
 
+INNER JOIN
+Compare tables and return only the rows that have a matching value in a specified column
+Return rows matching on a specified column that exists in more than one table
+INNER JOIN machines ON employees.employee_id = machines.employee_id
+
+COUNT 
+Returns a single number that represents the number of rows returned from your query.
+SELECT COUNT(firstname)
+
+AVG 
+Returns a single number that represents the average of the numerical data in a column.
+
+SUM 
+Returns a single number that represents the sum of the numerical data in a column. 
+
+
+
 Example of SQL Query
 	SELECT employee_id, device_id
 	FROM employees;
@@ -516,3 +533,15 @@ Consists of numbers, such as a count of log-in attempts.
 
 Date and time data 
 Refers to data representing a date and/or time.
+
+
+Types of JOINS
+
+LEFT JOIN
+Returns all of the records of the first table, but only returns rows of the second table that match on a specified column
+
+RIGHT JOIN
+Returns all of the records of the second table but only returns rows from the first table that match on a specified column
+
+FULL OUTER JOINT
+Returns all records from both tables. 
