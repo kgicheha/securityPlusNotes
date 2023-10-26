@@ -1,1 +1,53 @@
 
+Assets, Threats, and Vulnerabilities
+
+Elements of Security risk planning
+
+Assets
+An item perceived as having value to an organization
+Types of Assets:
+	Digital assets such as customer data or financial records.
+
+Information systems that process data, like networks or software.
+
+Physical assets which can include facilities, equipment, or supplies.
+
+Intangible assets such as brand reputation or intellectual property.
+
+Threats
+Any circumstance or event that can negatively impact assets.
+Types of Threats
+	Intentional
+Unintentional.
+
+Vulnerabilities
+A weakness that can be exploited by a threat
+Types of Vulnerabilities:
+	Technical → e.g. misconfigured software
+Human → forgetful employee who loses their access card in a parking lot
+
+Risk 
+Anything that can impact the confidentiality, integrity, or availability of an asset
+Risk = Likehood * Impact 
+
+Risk is calculated to:
+Prevent costly and disruptive events
+Identify improvements that can be made to systems and processes
+Determine which risks can be tolerated
+Prioritize the critical assets that require attention
+
+Asset Management 
+The process of tacking assets and the risks that affect them. 
+
+Asset Inventory
+A catalog of assets that need to be protected. 
+
+Asset classification
+The practice of labeling assets based on sensitivity and importance to an organization. 
+
+Levels of asset calssification
+Public → can be shared with anyone.
+Internal-only → can be shared with anyone in the organization but should not be shared outside of it.
+Confidential → should only be accessed by those working on a specific project.
+Restricted → highly sensitive and must be protected. Assets with this label are considered need-to-know. Examples include intellectual property and health or payment information
+
